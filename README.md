@@ -12,9 +12,10 @@ server/
   config/local.yml          non-secret server config
   modules/src/main.ts       InitModule: registers RPC + hook
   modules/src/hello.ts      "hello_world" RPC, after-device-auth hook
-unity/Assets/Scripts/Nakama/
-  NakamaBootstrap.cs        MonoBehaviour: builds the client, runs the flow, stores tokens
-  NakamaAuthFlow.cs         engine-agnostic flow (auth -> account -> RPC -> socket -> refresh)
+unity/                      Unity 6 project (URP, Android); generated folders are git-ignored
+  Assets/Scripts/Nakama/
+    NakamaBootstrap.cs      MonoBehaviour: builds the client, runs the flow, stores tokens
+    NakamaAuthFlow.cs       engine-agnostic flow (auth -> account -> RPC -> socket -> refresh)
 client-check/               .NET console harness that compiles NakamaAuthFlow.cs and asserts on it
 ```
 
@@ -67,17 +68,14 @@ For editor type-checking, run `npm install` once in `server/modules`, then `npm 
 
 ## Unity client
 
-1. Add the SDK. In the Unity editor, open **Window > Package Manager**, click **+ > Add package
-   from git URL…**, and paste:
-   ```
-   https://github.com/heroiclabs/nakama-unity.git?path=/Packages/Nakama#v3.23.0
-   ```
-   Alternatively, add this line under `"dependencies"` in `<YourUnityProject>/Packages/manifest.json`:
-   ```json
-   "com.heroiclabs.nakama-unity": "https://github.com/heroiclabs/nakama-unity.git?path=/Packages/Nakama#v3.23.0",
-   ```
-2. Copy `unity/Assets/Scripts/Nakama/` into your project's `Assets/`.
-3. Add `NakamaBootstrap` to a GameObject in your first scene and press Play.
+`unity/` is the Unity project: Unity **6000.6.8f1**, Universal 3D (URP) template, Android
+build profile, with the Nakama SDK v3.23.0 already in `Packages/manifest.json`.
+
+1. Install Git LFS once (`git lfs install`). Images, models, audio and fonts are stored in LFS
+   (see `.gitattributes`).
+2. In Unity Hub, choose **Add > Add project from disk** and pick the `unity/` folder. The first
+   open rebuilds `Library/`, which takes a few minutes.
+3. Add `NakamaBootstrap` to a GameObject in a scene and press Play.
    The Console should show `authenticated`, `rpc hello_world: {"message":"Hello, Unity!",...}`,
    `socket connected: True` and `refresh ok: True`.
 

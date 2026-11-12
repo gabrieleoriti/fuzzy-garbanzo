@@ -1,0 +1,49 @@
+# Unity-generated: rebuilt from Assets/, Packages/ and ProjectSettings/ on open.
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+/[Mm]emoryCaptures/
+/[Rr]ecordings/
+
+# IDE files Unity regenerates (solution, projects, VS Code settings)
+.vs/
+.vscode/
+.idea/
+*.csproj
+*.sln
+*.slnx
+*.suo
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+# Unity metadata for files above, and crash/build leftovers
+*.pidb.meta
+*.pdb.meta
+*.mdb.meta
+sysinfo.txt
+crashlytics-buildid.txt
+*.apk
+*.aab
+*.unitypackage
+*.app
+
+# Gradle / Android export output
+/[Ee]xported[Oo]bj/
+/ExportedProject/
+.gradle/
+
+# Burst / IL2CPP debug output
+/[Aa]ssets/[Ss]treamingAssets/aa.meta
+*_BurstDebugInformation_DoNotShip/
+*_BackUpThisFolder_ButDontShipItWithYourGame/

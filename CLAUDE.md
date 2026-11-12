@@ -11,7 +11,7 @@ Hobby project: a mobile 4X/SLG strategy game (Game of War / Whiteout Survival st
 ## Repo layout (monorepo)
 - `docker-compose.yml` (+ `docker-compose.dev.yml` for `tsc --watch` live reload) — Nakama 3.42.0 + Postgres 16
 - `server/` — Dockerfile, `config/local.yml`, `modules/src/*.ts` (Nakama TypeScript modules)
-- `unity/Assets/Scripts/Nakama/` — client scripts (`NakamaBootstrap`, `NakamaAuthFlow`); no full Unity project committed yet
+- `unity/` — Unity project (6000.6.8f1, Universal 3D/URP template, Android build profile, Nakama SDK v3.23.0). Client scripts in `Assets/Scripts/Nakama/` (`NakamaBootstrap`, `NakamaAuthFlow`). Binary assets go through Git LFS (`.gitattributes`); generated folders are ignored by `unity/.gitignore`.
 - `client-check/` — .NET console harness that runs `NakamaAuthFlow.cs` headlessly against the stack (needs .NET SDK)
 - `config/` — JSON exported from the core-loop sheet (generated; see `config/README.md`)
 - `tools/export-config/` — Node exporter: Sheet downloaded as `.xlsx` → validated JSON in `config/`. The Sheet has no API a script can call, so the `.xlsx` download is the input.
