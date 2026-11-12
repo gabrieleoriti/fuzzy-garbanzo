@@ -1,0 +1,1698 @@
+[
+  {
+    "id": "agriculture",
+    "name": "Agriculture",
+    "branch": "economy",
+    "maxLevel": 20,
+    "effect": "food_output",
+    "valuePerLevel": 0.05,
+    "academyLevelRequired": 1,
+    "requiresTech": null,
+    "levels": [
+      {
+        "level": 1,
+        "cost": {
+          "food": 500,
+          "timber": 500,
+          "stone": 0,
+          "iron": 0
+        },
+        "timeSec": 300
+      },
+      {
+        "level": 2,
+        "cost": {
+          "food": 700,
+          "timber": 700,
+          "stone": 0,
+          "iron": 0
+        },
+        "timeSec": 420
+      },
+      {
+        "level": 3,
+        "cost": {
+          "food": 980,
+          "timber": 980,
+          "stone": 0,
+          "iron": 0
+        },
+        "timeSec": 588
+      },
+      {
+        "level": 4,
+        "cost": {
+          "food": 1372,
+          "timber": 1372,
+          "stone": 0,
+          "iron": 0
+        },
+        "timeSec": 823
+      },
+      {
+        "level": 5,
+        "cost": {
+          "food": 1921,
+          "timber": 1921,
+          "stone": 0,
+          "iron": 0
+        },
+        "timeSec": 1152
+      },
+      {
+        "level": 6,
+        "cost": {
+          "food": 2689,
+          "timber": 2689,
+          "stone": 0,
+          "iron": 0
+        },
+        "timeSec": 1613
+      },
+      {
+        "level": 7,
+        "cost": {
+          "food": 3765,
+          "timber": 3765,
+          "stone": 0,
+          "iron": 0
+        },
+        "timeSec": 2259
+      },
+      {
+        "level": 8,
+        "cost": {
+          "food": 5271,
+          "timber": 5271,
+          "stone": 0,
+          "iron": 0
+        },
+        "timeSec": 3162
+      },
+      {
+        "level": 9,
+        "cost": {
+          "food": 7379,
+          "timber": 7379,
+          "stone": 0,
+          "iron": 0
+        },
+        "timeSec": 4427
+      },
+      {
+        "level": 10,
+        "cost": {
+          "food": 10331,
+          "timber": 10331,
+          "stone": 0,
+          "iron": 0
+        },
+        "timeSec": 6198
+      },
+      {
+        "level": 11,
+        "cost": {
+          "food": 14463,
+          "timber": 14463,
+          "stone": 0,
+          "iron": 0
+        },
+        "timeSec": 8678
+      },
+      {
+        "level": 12,
+        "cost": {
+          "food": 20248,
+          "timber": 20248,
+          "stone": 0,
+          "iron": 0
+        },
+        "timeSec": 12149
+      },
+      {
+        "level": 13,
+        "cost": {
+          "food": 28347,
+          "timber": 28347,
+          "stone": 0,
+          "iron": 0
+        },
+        "timeSec": 17008
+      },
+      {
+        "level": 14,
+        "cost": {
+          "food": 39686,
+          "timber": 39686,
+          "stone": 0,
+          "iron": 0
+        },
+        "timeSec": 23811
+      },
+      {
+        "level": 15,
+        "cost": {
+          "food": 55560,
+          "timber": 55560,
+          "stone": 0,
+          "iron": 0
+        },
+        "timeSec": 33336
+      },
+      {
+        "level": 16,
+        "cost": {
+          "food": 77784,
+          "timber": 77784,
+          "stone": 0,
+          "iron": 0
+        },
+        "timeSec": 46670
+      },
+      {
+        "level": 17,
+        "cost": {
+          "food": 108898,
+          "timber": 108898,
+          "stone": 0,
+          "iron": 0
+        },
+        "timeSec": 65339
+      },
+      {
+        "level": 18,
+        "cost": {
+          "food": 152457,
+          "timber": 152457,
+          "stone": 0,
+          "iron": 0
+        },
+        "timeSec": 91474
+      },
+      {
+        "level": 19,
+        "cost": {
+          "food": 213439,
+          "timber": 213439,
+          "stone": 0,
+          "iron": 0
+        },
+        "timeSec": 128064
+      },
+      {
+        "level": 20,
+        "cost": {
+          "food": 298815,
+          "timber": 298815,
+          "stone": 0,
+          "iron": 0
+        },
+        "timeSec": 179289
+      }
+    ]
+  },
+  {
+    "id": "forestry",
+    "name": "Forestry",
+    "branch": "economy",
+    "maxLevel": 20,
+    "effect": "timber_output",
+    "valuePerLevel": 0.05,
+    "academyLevelRequired": 1,
+    "requiresTech": null,
+    "levels": [
+      {
+        "level": 1,
+        "cost": {
+          "food": 500,
+          "timber": 500,
+          "stone": 0,
+          "iron": 0
+        },
+        "timeSec": 300
+      },
+      {
+        "level": 2,
+        "cost": {
+          "food": 700,
+          "timber": 700,
+          "stone": 0,
+          "iron": 0
+        },
+        "timeSec": 420
+      },
+      {
+        "level": 3,
+        "cost": {
+          "food": 980,
+          "timber": 980,
+          "stone": 0,
+          "iron": 0
+        },
+        "timeSec": 588
+      },
+      {
+        "level": 4,
+        "cost": {
+          "food": 1372,
+          "timber": 1372,
+          "stone": 0,
+          "iron": 0
+        },
+        "timeSec": 823
+      },
+      {
+        "level": 5,
+        "cost": {
+          "food": 1921,
+          "timber": 1921,
+          "stone": 0,
+          "iron": 0
+        },
+        "timeSec": 1152
+      },
+      {
+        "level": 6,
+        "cost": {
+          "food": 2689,
+          "timber": 2689,
+          "stone": 0,
+          "iron": 0
+        },
+        "timeSec": 1613
+      },
+      {
+        "level": 7,
+        "cost": {
+          "food": 3765,
+          "timber": 3765,
+          "stone": 0,
+          "iron": 0
+        },
+        "timeSec": 2259
+      },
+      {
+        "level": 8,
+        "cost": {
+          "food": 5271,
+          "timber": 5271,
+          "stone": 0,
+          "iron": 0
+        },
+        "timeSec": 3162
+      },
+      {
+        "level": 9,
+        "cost": {
+          "food": 7379,
+          "timber": 7379,
+          "stone": 0,
+          "iron": 0
+        },
+        "timeSec": 4427
+      },
+      {
+        "level": 10,
+        "cost": {
+          "food": 10331,
+          "timber": 10331,
+          "stone": 0,
+          "iron": 0
+        },
+        "timeSec": 6198
+      },
+      {
+        "level": 11,
+        "cost": {
+          "food": 14463,
+          "timber": 14463,
+          "stone": 0,
+          "iron": 0
+        },
+        "timeSec": 8678
+      },
+      {
+        "level": 12,
+        "cost": {
+          "food": 20248,
+          "timber": 20248,
+          "stone": 0,
+          "iron": 0
+        },
+        "timeSec": 12149
+      },
+      {
+        "level": 13,
+        "cost": {
+          "food": 28347,
+          "timber": 28347,
+          "stone": 0,
+          "iron": 0
+        },
+        "timeSec": 17008
+      },
+      {
+        "level": 14,
+        "cost": {
+          "food": 39686,
+          "timber": 39686,
+          "stone": 0,
+          "iron": 0
+        },
+        "timeSec": 23811
+      },
+      {
+        "level": 15,
+        "cost": {
+          "food": 55560,
+          "timber": 55560,
+          "stone": 0,
+          "iron": 0
+        },
+        "timeSec": 33336
+      },
+      {
+        "level": 16,
+        "cost": {
+          "food": 77784,
+          "timber": 77784,
+          "stone": 0,
+          "iron": 0
+        },
+        "timeSec": 46670
+      },
+      {
+        "level": 17,
+        "cost": {
+          "food": 108898,
+          "timber": 108898,
+          "stone": 0,
+          "iron": 0
+        },
+        "timeSec": 65339
+      },
+      {
+        "level": 18,
+        "cost": {
+          "food": 152457,
+          "timber": 152457,
+          "stone": 0,
+          "iron": 0
+        },
+        "timeSec": 91474
+      },
+      {
+        "level": 19,
+        "cost": {
+          "food": 213439,
+          "timber": 213439,
+          "stone": 0,
+          "iron": 0
+        },
+        "timeSec": 128064
+      },
+      {
+        "level": 20,
+        "cost": {
+          "food": 298815,
+          "timber": 298815,
+          "stone": 0,
+          "iron": 0
+        },
+        "timeSec": 179289
+      }
+    ]
+  },
+  {
+    "id": "masonry",
+    "name": "Masonry",
+    "branch": "economy",
+    "maxLevel": 20,
+    "effect": "stone_output",
+    "valuePerLevel": 0.05,
+    "academyLevelRequired": 3,
+    "requiresTech": "forestry",
+    "levels": [
+      {
+        "level": 1,
+        "cost": {
+          "food": 600,
+          "timber": 600,
+          "stone": 200,
+          "iron": 0
+        },
+        "timeSec": 400
+      },
+      {
+        "level": 2,
+        "cost": {
+          "food": 840,
+          "timber": 840,
+          "stone": 280,
+          "iron": 0
+        },
+        "timeSec": 560
+      },
+      {
+        "level": 3,
+        "cost": {
+          "food": 1176,
+          "timber": 1176,
+          "stone": 392,
+          "iron": 0
+        },
+        "timeSec": 784
+      },
+      {
+        "level": 4,
+        "cost": {
+          "food": 1646,
+          "timber": 1646,
+          "stone": 549,
+          "iron": 0
+        },
+        "timeSec": 1098
+      },
+      {
+        "level": 5,
+        "cost": {
+          "food": 2305,
+          "timber": 2305,
+          "stone": 768,
+          "iron": 0
+        },
+        "timeSec": 1537
+      },
+      {
+        "level": 6,
+        "cost": {
+          "food": 3227,
+          "timber": 3227,
+          "stone": 1076,
+          "iron": 0
+        },
+        "timeSec": 2151
+      },
+      {
+        "level": 7,
+        "cost": {
+          "food": 4518,
+          "timber": 4518,
+          "stone": 1506,
+          "iron": 0
+        },
+        "timeSec": 3012
+      },
+      {
+        "level": 8,
+        "cost": {
+          "food": 6325,
+          "timber": 6325,
+          "stone": 2108,
+          "iron": 0
+        },
+        "timeSec": 4217
+      },
+      {
+        "level": 9,
+        "cost": {
+          "food": 8855,
+          "timber": 8855,
+          "stone": 2952,
+          "iron": 0
+        },
+        "timeSec": 5903
+      },
+      {
+        "level": 10,
+        "cost": {
+          "food": 12397,
+          "timber": 12397,
+          "stone": 4132,
+          "iron": 0
+        },
+        "timeSec": 8264
+      },
+      {
+        "level": 11,
+        "cost": {
+          "food": 17355,
+          "timber": 17355,
+          "stone": 5785,
+          "iron": 0
+        },
+        "timeSec": 11570
+      },
+      {
+        "level": 12,
+        "cost": {
+          "food": 24297,
+          "timber": 24297,
+          "stone": 8099,
+          "iron": 0
+        },
+        "timeSec": 16198
+      },
+      {
+        "level": 13,
+        "cost": {
+          "food": 34016,
+          "timber": 34016,
+          "stone": 11339,
+          "iron": 0
+        },
+        "timeSec": 22678
+      },
+      {
+        "level": 14,
+        "cost": {
+          "food": 47623,
+          "timber": 47623,
+          "stone": 15874,
+          "iron": 0
+        },
+        "timeSec": 31749
+      },
+      {
+        "level": 15,
+        "cost": {
+          "food": 66672,
+          "timber": 66672,
+          "stone": 22224,
+          "iron": 0
+        },
+        "timeSec": 44448
+      },
+      {
+        "level": 16,
+        "cost": {
+          "food": 93341,
+          "timber": 93341,
+          "stone": 31114,
+          "iron": 0
+        },
+        "timeSec": 62227
+      },
+      {
+        "level": 17,
+        "cost": {
+          "food": 130677,
+          "timber": 130677,
+          "stone": 43559,
+          "iron": 0
+        },
+        "timeSec": 87118
+      },
+      {
+        "level": 18,
+        "cost": {
+          "food": 182948,
+          "timber": 182948,
+          "stone": 60983,
+          "iron": 0
+        },
+        "timeSec": 121965
+      },
+      {
+        "level": 19,
+        "cost": {
+          "food": 256127,
+          "timber": 256127,
+          "stone": 85376,
+          "iron": 0
+        },
+        "timeSec": 170752
+      },
+      {
+        "level": 20,
+        "cost": {
+          "food": 358578,
+          "timber": 358578,
+          "stone": 119526,
+          "iron": 0
+        },
+        "timeSec": 239052
+      }
+    ]
+  },
+  {
+    "id": "master_builders",
+    "name": "Master Builders",
+    "branch": "economy",
+    "maxLevel": 20,
+    "effect": "construction_speed",
+    "valuePerLevel": 0.03,
+    "academyLevelRequired": 4,
+    "requiresTech": "masonry",
+    "levels": [
+      {
+        "level": 1,
+        "cost": {
+          "food": 800,
+          "timber": 800,
+          "stone": 400,
+          "iron": 100
+        },
+        "timeSec": 600
+      },
+      {
+        "level": 2,
+        "cost": {
+          "food": 1160,
+          "timber": 1160,
+          "stone": 580,
+          "iron": 145
+        },
+        "timeSec": 870
+      },
+      {
+        "level": 3,
+        "cost": {
+          "food": 1682,
+          "timber": 1682,
+          "stone": 841,
+          "iron": 210
+        },
+        "timeSec": 1262
+      },
+      {
+        "level": 4,
+        "cost": {
+          "food": 2439,
+          "timber": 2439,
+          "stone": 1219,
+          "iron": 305
+        },
+        "timeSec": 1829
+      },
+      {
+        "level": 5,
+        "cost": {
+          "food": 3536,
+          "timber": 3536,
+          "stone": 1768,
+          "iron": 442
+        },
+        "timeSec": 2652
+      },
+      {
+        "level": 6,
+        "cost": {
+          "food": 5128,
+          "timber": 5128,
+          "stone": 2564,
+          "iron": 641
+        },
+        "timeSec": 3846
+      },
+      {
+        "level": 7,
+        "cost": {
+          "food": 7435,
+          "timber": 7435,
+          "stone": 3718,
+          "iron": 929
+        },
+        "timeSec": 5576
+      },
+      {
+        "level": 8,
+        "cost": {
+          "food": 10781,
+          "timber": 10781,
+          "stone": 5391,
+          "iron": 1348
+        },
+        "timeSec": 8086
+      },
+      {
+        "level": 9,
+        "cost": {
+          "food": 15633,
+          "timber": 15633,
+          "stone": 7816,
+          "iron": 1954
+        },
+        "timeSec": 11725
+      },
+      {
+        "level": 10,
+        "cost": {
+          "food": 22667,
+          "timber": 22667,
+          "stone": 11334,
+          "iron": 2833
+        },
+        "timeSec": 17001
+      },
+      {
+        "level": 11,
+        "cost": {
+          "food": 32868,
+          "timber": 32868,
+          "stone": 16434,
+          "iron": 4108
+        },
+        "timeSec": 24651
+      },
+      {
+        "level": 12,
+        "cost": {
+          "food": 47658,
+          "timber": 47658,
+          "stone": 23829,
+          "iron": 5957
+        },
+        "timeSec": 35744
+      },
+      {
+        "level": 13,
+        "cost": {
+          "food": 69104,
+          "timber": 69104,
+          "stone": 34552,
+          "iron": 8638
+        },
+        "timeSec": 51828
+      },
+      {
+        "level": 14,
+        "cost": {
+          "food": 100201,
+          "timber": 100201,
+          "stone": 50101,
+          "iron": 12525
+        },
+        "timeSec": 75151
+      },
+      {
+        "level": 15,
+        "cost": {
+          "food": 145292,
+          "timber": 145292,
+          "stone": 72646,
+          "iron": 18162
+        },
+        "timeSec": 108969
+      },
+      {
+        "level": 16,
+        "cost": {
+          "food": 210674,
+          "timber": 210674,
+          "stone": 105337,
+          "iron": 26334
+        },
+        "timeSec": 158005
+      },
+      {
+        "level": 17,
+        "cost": {
+          "food": 305477,
+          "timber": 305477,
+          "stone": 152738,
+          "iron": 38185
+        },
+        "timeSec": 229107
+      },
+      {
+        "level": 18,
+        "cost": {
+          "food": 442941,
+          "timber": 442941,
+          "stone": 221471,
+          "iron": 55368
+        },
+        "timeSec": 332206
+      },
+      {
+        "level": 19,
+        "cost": {
+          "food": 642265,
+          "timber": 642265,
+          "stone": 321132,
+          "iron": 80283
+        },
+        "timeSec": 481698
+      },
+      {
+        "level": 20,
+        "cost": {
+          "food": 931284,
+          "timber": 931284,
+          "stone": 465642,
+          "iron": 116410
+        },
+        "timeSec": 698463
+      }
+    ]
+  },
+  {
+    "id": "swift_march",
+    "name": "Swift March",
+    "branch": "military",
+    "maxLevel": 20,
+    "effect": "march_speed",
+    "valuePerLevel": 0.04,
+    "academyLevelRequired": 4,
+    "requiresTech": null,
+    "levels": [
+      {
+        "level": 1,
+        "cost": {
+          "food": 600,
+          "timber": 400,
+          "stone": 0,
+          "iron": 200
+        },
+        "timeSec": 500
+      },
+      {
+        "level": 2,
+        "cost": {
+          "food": 870,
+          "timber": 580,
+          "stone": 0,
+          "iron": 290
+        },
+        "timeSec": 725
+      },
+      {
+        "level": 3,
+        "cost": {
+          "food": 1262,
+          "timber": 841,
+          "stone": 0,
+          "iron": 421
+        },
+        "timeSec": 1051
+      },
+      {
+        "level": 4,
+        "cost": {
+          "food": 1829,
+          "timber": 1219,
+          "stone": 0,
+          "iron": 610
+        },
+        "timeSec": 1524
+      },
+      {
+        "level": 5,
+        "cost": {
+          "food": 2652,
+          "timber": 1768,
+          "stone": 0,
+          "iron": 884
+        },
+        "timeSec": 2210
+      },
+      {
+        "level": 6,
+        "cost": {
+          "food": 3846,
+          "timber": 2564,
+          "stone": 0,
+          "iron": 1282
+        },
+        "timeSec": 3205
+      },
+      {
+        "level": 7,
+        "cost": {
+          "food": 5576,
+          "timber": 3718,
+          "stone": 0,
+          "iron": 1859
+        },
+        "timeSec": 4647
+      },
+      {
+        "level": 8,
+        "cost": {
+          "food": 8086,
+          "timber": 5391,
+          "stone": 0,
+          "iron": 2695
+        },
+        "timeSec": 6738
+      },
+      {
+        "level": 9,
+        "cost": {
+          "food": 11725,
+          "timber": 7816,
+          "stone": 0,
+          "iron": 3908
+        },
+        "timeSec": 9770
+      },
+      {
+        "level": 10,
+        "cost": {
+          "food": 17001,
+          "timber": 11334,
+          "stone": 0,
+          "iron": 5667
+        },
+        "timeSec": 14167
+      },
+      {
+        "level": 11,
+        "cost": {
+          "food": 24651,
+          "timber": 16434,
+          "stone": 0,
+          "iron": 8217
+        },
+        "timeSec": 20542
+      },
+      {
+        "level": 12,
+        "cost": {
+          "food": 35744,
+          "timber": 23829,
+          "stone": 0,
+          "iron": 11915
+        },
+        "timeSec": 29786
+      },
+      {
+        "level": 13,
+        "cost": {
+          "food": 51828,
+          "timber": 34552,
+          "stone": 0,
+          "iron": 17276
+        },
+        "timeSec": 43190
+      },
+      {
+        "level": 14,
+        "cost": {
+          "food": 75151,
+          "timber": 50101,
+          "stone": 0,
+          "iron": 25050
+        },
+        "timeSec": 62626
+      },
+      {
+        "level": 15,
+        "cost": {
+          "food": 108969,
+          "timber": 72646,
+          "stone": 0,
+          "iron": 36323
+        },
+        "timeSec": 90808
+      },
+      {
+        "level": 16,
+        "cost": {
+          "food": 158005,
+          "timber": 105337,
+          "stone": 0,
+          "iron": 52668
+        },
+        "timeSec": 131671
+      },
+      {
+        "level": 17,
+        "cost": {
+          "food": 229107,
+          "timber": 152738,
+          "stone": 0,
+          "iron": 76369
+        },
+        "timeSec": 190923
+      },
+      {
+        "level": 18,
+        "cost": {
+          "food": 332206,
+          "timber": 221471,
+          "stone": 0,
+          "iron": 110735
+        },
+        "timeSec": 276838
+      },
+      {
+        "level": 19,
+        "cost": {
+          "food": 481698,
+          "timber": 321132,
+          "stone": 0,
+          "iron": 160566
+        },
+        "timeSec": 401415
+      },
+      {
+        "level": 20,
+        "cost": {
+          "food": 698463,
+          "timber": 465642,
+          "stone": 0,
+          "iron": 232821
+        },
+        "timeSec": 582052
+      }
+    ]
+  },
+  {
+    "id": "iron_discipline",
+    "name": "Iron Discipline",
+    "branch": "military",
+    "maxLevel": 20,
+    "effect": "infantry_attack",
+    "valuePerLevel": 0.02,
+    "academyLevelRequired": 5,
+    "requiresTech": "swift_march",
+    "levels": [
+      {
+        "level": 1,
+        "cost": {
+          "food": 800,
+          "timber": 400,
+          "stone": 0,
+          "iron": 300
+        },
+        "timeSec": 600
+      },
+      {
+        "level": 2,
+        "cost": {
+          "food": 1160,
+          "timber": 580,
+          "stone": 0,
+          "iron": 435
+        },
+        "timeSec": 870
+      },
+      {
+        "level": 3,
+        "cost": {
+          "food": 1682,
+          "timber": 841,
+          "stone": 0,
+          "iron": 631
+        },
+        "timeSec": 1262
+      },
+      {
+        "level": 4,
+        "cost": {
+          "food": 2439,
+          "timber": 1219,
+          "stone": 0,
+          "iron": 915
+        },
+        "timeSec": 1829
+      },
+      {
+        "level": 5,
+        "cost": {
+          "food": 3536,
+          "timber": 1768,
+          "stone": 0,
+          "iron": 1326
+        },
+        "timeSec": 2652
+      },
+      {
+        "level": 6,
+        "cost": {
+          "food": 5128,
+          "timber": 2564,
+          "stone": 0,
+          "iron": 1923
+        },
+        "timeSec": 3846
+      },
+      {
+        "level": 7,
+        "cost": {
+          "food": 7435,
+          "timber": 3718,
+          "stone": 0,
+          "iron": 2788
+        },
+        "timeSec": 5576
+      },
+      {
+        "level": 8,
+        "cost": {
+          "food": 10781,
+          "timber": 5391,
+          "stone": 0,
+          "iron": 4043
+        },
+        "timeSec": 8086
+      },
+      {
+        "level": 9,
+        "cost": {
+          "food": 15633,
+          "timber": 7816,
+          "stone": 0,
+          "iron": 5862
+        },
+        "timeSec": 11725
+      },
+      {
+        "level": 10,
+        "cost": {
+          "food": 22667,
+          "timber": 11334,
+          "stone": 0,
+          "iron": 8500
+        },
+        "timeSec": 17001
+      },
+      {
+        "level": 11,
+        "cost": {
+          "food": 32868,
+          "timber": 16434,
+          "stone": 0,
+          "iron": 12325
+        },
+        "timeSec": 24651
+      },
+      {
+        "level": 12,
+        "cost": {
+          "food": 47658,
+          "timber": 23829,
+          "stone": 0,
+          "iron": 17872
+        },
+        "timeSec": 35744
+      },
+      {
+        "level": 13,
+        "cost": {
+          "food": 69104,
+          "timber": 34552,
+          "stone": 0,
+          "iron": 25914
+        },
+        "timeSec": 51828
+      },
+      {
+        "level": 14,
+        "cost": {
+          "food": 100201,
+          "timber": 50101,
+          "stone": 0,
+          "iron": 37576
+        },
+        "timeSec": 75151
+      },
+      {
+        "level": 15,
+        "cost": {
+          "food": 145292,
+          "timber": 72646,
+          "stone": 0,
+          "iron": 54485
+        },
+        "timeSec": 108969
+      },
+      {
+        "level": 16,
+        "cost": {
+          "food": 210674,
+          "timber": 105337,
+          "stone": 0,
+          "iron": 79003
+        },
+        "timeSec": 158005
+      },
+      {
+        "level": 17,
+        "cost": {
+          "food": 305477,
+          "timber": 152738,
+          "stone": 0,
+          "iron": 114554
+        },
+        "timeSec": 229107
+      },
+      {
+        "level": 18,
+        "cost": {
+          "food": 442941,
+          "timber": 221471,
+          "stone": 0,
+          "iron": 166103
+        },
+        "timeSec": 332206
+      },
+      {
+        "level": 19,
+        "cost": {
+          "food": 642265,
+          "timber": 321132,
+          "stone": 0,
+          "iron": 240849
+        },
+        "timeSec": 481698
+      },
+      {
+        "level": 20,
+        "cost": {
+          "food": 931284,
+          "timber": 465642,
+          "stone": 0,
+          "iron": 349231
+        },
+        "timeSec": 698463
+      }
+    ]
+  },
+  {
+    "id": "fletching",
+    "name": "Fletching",
+    "branch": "military",
+    "maxLevel": 20,
+    "effect": "archer_attack",
+    "valuePerLevel": 0.02,
+    "academyLevelRequired": 5,
+    "requiresTech": "swift_march",
+    "levels": [
+      {
+        "level": 1,
+        "cost": {
+          "food": 800,
+          "timber": 400,
+          "stone": 0,
+          "iron": 300
+        },
+        "timeSec": 600
+      },
+      {
+        "level": 2,
+        "cost": {
+          "food": 1160,
+          "timber": 580,
+          "stone": 0,
+          "iron": 435
+        },
+        "timeSec": 870
+      },
+      {
+        "level": 3,
+        "cost": {
+          "food": 1682,
+          "timber": 841,
+          "stone": 0,
+          "iron": 631
+        },
+        "timeSec": 1262
+      },
+      {
+        "level": 4,
+        "cost": {
+          "food": 2439,
+          "timber": 1219,
+          "stone": 0,
+          "iron": 915
+        },
+        "timeSec": 1829
+      },
+      {
+        "level": 5,
+        "cost": {
+          "food": 3536,
+          "timber": 1768,
+          "stone": 0,
+          "iron": 1326
+        },
+        "timeSec": 2652
+      },
+      {
+        "level": 6,
+        "cost": {
+          "food": 5128,
+          "timber": 2564,
+          "stone": 0,
+          "iron": 1923
+        },
+        "timeSec": 3846
+      },
+      {
+        "level": 7,
+        "cost": {
+          "food": 7435,
+          "timber": 3718,
+          "stone": 0,
+          "iron": 2788
+        },
+        "timeSec": 5576
+      },
+      {
+        "level": 8,
+        "cost": {
+          "food": 10781,
+          "timber": 5391,
+          "stone": 0,
+          "iron": 4043
+        },
+        "timeSec": 8086
+      },
+      {
+        "level": 9,
+        "cost": {
+          "food": 15633,
+          "timber": 7816,
+          "stone": 0,
+          "iron": 5862
+        },
+        "timeSec": 11725
+      },
+      {
+        "level": 10,
+        "cost": {
+          "food": 22667,
+          "timber": 11334,
+          "stone": 0,
+          "iron": 8500
+        },
+        "timeSec": 17001
+      },
+      {
+        "level": 11,
+        "cost": {
+          "food": 32868,
+          "timber": 16434,
+          "stone": 0,
+          "iron": 12325
+        },
+        "timeSec": 24651
+      },
+      {
+        "level": 12,
+        "cost": {
+          "food": 47658,
+          "timber": 23829,
+          "stone": 0,
+          "iron": 17872
+        },
+        "timeSec": 35744
+      },
+      {
+        "level": 13,
+        "cost": {
+          "food": 69104,
+          "timber": 34552,
+          "stone": 0,
+          "iron": 25914
+        },
+        "timeSec": 51828
+      },
+      {
+        "level": 14,
+        "cost": {
+          "food": 100201,
+          "timber": 50101,
+          "stone": 0,
+          "iron": 37576
+        },
+        "timeSec": 75151
+      },
+      {
+        "level": 15,
+        "cost": {
+          "food": 145292,
+          "timber": 72646,
+          "stone": 0,
+          "iron": 54485
+        },
+        "timeSec": 108969
+      },
+      {
+        "level": 16,
+        "cost": {
+          "food": 210674,
+          "timber": 105337,
+          "stone": 0,
+          "iron": 79003
+        },
+        "timeSec": 158005
+      },
+      {
+        "level": 17,
+        "cost": {
+          "food": 305477,
+          "timber": 152738,
+          "stone": 0,
+          "iron": 114554
+        },
+        "timeSec": 229107
+      },
+      {
+        "level": 18,
+        "cost": {
+          "food": 442941,
+          "timber": 221471,
+          "stone": 0,
+          "iron": 166103
+        },
+        "timeSec": 332206
+      },
+      {
+        "level": 19,
+        "cost": {
+          "food": 642265,
+          "timber": 321132,
+          "stone": 0,
+          "iron": 240849
+        },
+        "timeSec": 481698
+      },
+      {
+        "level": 20,
+        "cost": {
+          "food": 931284,
+          "timber": 465642,
+          "stone": 0,
+          "iron": 349231
+        },
+        "timeSec": 698463
+      }
+    ]
+  },
+  {
+    "id": "field_medicine",
+    "name": "Field Medicine",
+    "branch": "military",
+    "maxLevel": 20,
+    "effect": "infirmary_capacity",
+    "valuePerLevel": 0.05,
+    "academyLevelRequired": 6,
+    "requiresTech": null,
+    "levels": [
+      {
+        "level": 1,
+        "cost": {
+          "food": 700,
+          "timber": 500,
+          "stone": 200,
+          "iron": 100
+        },
+        "timeSec": 500
+      },
+      {
+        "level": 2,
+        "cost": {
+          "food": 1015,
+          "timber": 725,
+          "stone": 290,
+          "iron": 145
+        },
+        "timeSec": 725
+      },
+      {
+        "level": 3,
+        "cost": {
+          "food": 1472,
+          "timber": 1051,
+          "stone": 421,
+          "iron": 210
+        },
+        "timeSec": 1051
+      },
+      {
+        "level": 4,
+        "cost": {
+          "food": 2134,
+          "timber": 1524,
+          "stone": 610,
+          "iron": 305
+        },
+        "timeSec": 1524
+      },
+      {
+        "level": 5,
+        "cost": {
+          "food": 3094,
+          "timber": 2210,
+          "stone": 884,
+          "iron": 442
+        },
+        "timeSec": 2210
+      },
+      {
+        "level": 6,
+        "cost": {
+          "food": 4487,
+          "timber": 3205,
+          "stone": 1282,
+          "iron": 641
+        },
+        "timeSec": 3205
+      },
+      {
+        "level": 7,
+        "cost": {
+          "food": 6506,
+          "timber": 4647,
+          "stone": 1859,
+          "iron": 929
+        },
+        "timeSec": 4647
+      },
+      {
+        "level": 8,
+        "cost": {
+          "food": 9434,
+          "timber": 6738,
+          "stone": 2695,
+          "iron": 1348
+        },
+        "timeSec": 6738
+      },
+      {
+        "level": 9,
+        "cost": {
+          "food": 13679,
+          "timber": 9770,
+          "stone": 3908,
+          "iron": 1954
+        },
+        "timeSec": 9770
+      },
+      {
+        "level": 10,
+        "cost": {
+          "food": 19834,
+          "timber": 14167,
+          "stone": 5667,
+          "iron": 2833
+        },
+        "timeSec": 14167
+      },
+      {
+        "level": 11,
+        "cost": {
+          "food": 28759,
+          "timber": 20542,
+          "stone": 8217,
+          "iron": 4108
+        },
+        "timeSec": 20542
+      },
+      {
+        "level": 12,
+        "cost": {
+          "food": 41701,
+          "timber": 29786,
+          "stone": 11915,
+          "iron": 5957
+        },
+        "timeSec": 29786
+      },
+      {
+        "level": 13,
+        "cost": {
+          "food": 60466,
+          "timber": 43190,
+          "stone": 17276,
+          "iron": 8638
+        },
+        "timeSec": 43190
+      },
+      {
+        "level": 14,
+        "cost": {
+          "food": 87676,
+          "timber": 62626,
+          "stone": 25050,
+          "iron": 12525
+        },
+        "timeSec": 62626
+      },
+      {
+        "level": 15,
+        "cost": {
+          "food": 127131,
+          "timber": 90808,
+          "stone": 36323,
+          "iron": 18162
+        },
+        "timeSec": 90808
+      },
+      {
+        "level": 16,
+        "cost": {
+          "food": 184339,
+          "timber": 131671,
+          "stone": 52668,
+          "iron": 26334
+        },
+        "timeSec": 131671
+      },
+      {
+        "level": 17,
+        "cost": {
+          "food": 267292,
+          "timber": 190923,
+          "stone": 76369,
+          "iron": 38185
+        },
+        "timeSec": 190923
+      },
+      {
+        "level": 18,
+        "cost": {
+          "food": 387574,
+          "timber": 276838,
+          "stone": 110735,
+          "iron": 55368
+        },
+        "timeSec": 276838
+      },
+      {
+        "level": 19,
+        "cost": {
+          "food": 561982,
+          "timber": 401415,
+          "stone": 160566,
+          "iron": 80283
+        },
+        "timeSec": 401415
+      },
+      {
+        "level": 20,
+        "cost": {
+          "food": 814873,
+          "timber": 582052,
+          "stone": 232821,
+          "iron": 116410
+        },
+        "timeSec": 582052
+      }
+    ]
+  }
+]

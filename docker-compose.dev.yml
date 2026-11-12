@@ -1,0 +1,43 @@
+# Dev override: compile the TypeScript module on save and mount the output into
+# Nakama, so a code change only needs `docker compose restart nakama` (seconds)
+# instead of an image rebuild.
+#
+#   docker compose -f docker-compose.yml -f docker-compose.dev.yml up -d
+#
+# Plain `docker compose up` (without this file) still uses the module baked into the image.
+
+services:
+  modules:
+    image: node:22-bookworm # includes git, needed to fetch nakama-runtime types
+    working_dir: /modules
+    volumes:
+      - ./server/modules:/modules
+      # Keep Linux node_modules in a volume so they never mix with a host install.
+      - modules_node_modules:/modules/node_modules
+    # Remove any stale bundle so the healthcheck only passes after a fresh compile.
+    # Polling because file events from Windows/macOS hosts don't reach containers reliably.
+    # noEmitOnError (tsconfig) keeps the last good build when the code doesn't compile.
+    command: >
+      sh -ec "rm -f build/index.js &&
+      npm ci --no-audit --no-fund &&
+      exec npx tsc --watch --preserveWatchOutput
+      --watchFile fixedPollingInterval
+      --watchDirectory fixedPollingInterval"
+    healthcheck:
+      test: ["CMD", "test", "-f", "/modules/build/index.js"]
+      interval: 3s
+      timeout: 3s
+      retries: 60
+      start_period: 60s
+
+  nakama:
+    depends_on:
+      modules:
+        condition: service_healthy
+    volumes:
+      # Shadows the bundle baked into the image.
+      - ./server/modules/build:/nakama/data/modules/build:ro
+      - ./server/config/local.yml:/nakama/data/local.yml:ro
+
+volumes:
+  modules_node_modules:

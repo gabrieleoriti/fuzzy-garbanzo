@@ -1,0 +1,17 @@
+{
+  "name": "export-config",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Exports the 'Fantasy SLG Core Loop' workbook (.xlsx download) to JSON in config/",
+  "type": "module",
+  "scripts": {
+    "export": "node src/cli.mjs",
+    "test": "node --test test/"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "exceljs": "4.4.0"
+  }
+}
