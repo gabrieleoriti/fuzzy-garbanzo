@@ -5,6 +5,7 @@ Local game backend: **Nakama 3.42.0 + Postgres 16** via Docker Compose, a
 
 ```
 docker-compose.yml          postgres + nakama (migrations run on start)
+docker-compose.dev.yml      dev override: tsc --watch + module mounted into nakama
 .env.example                dev keys/passwords -> copy to .env
 server/
   Dockerfile                builds the TS module, bakes it into the Nakama image
@@ -39,14 +40,41 @@ When it's up, the logs should show the module loading:
 docker compose logs nakama | grep -E "module loaded|Registered JavaScript"
 ```
 
-After editing `server/modules/src/*.ts`, run `docker compose up -d --build nakama`.
+## Module development (live reload)
+
+Start the stack with the dev override:
+
+```bash
+docker compose -f docker-compose.yml -f docker-compose.dev.yml up -d
+```
+
+This adds a `modules` container that runs `tsc --watch` on `server/modules/src`
+and writes the bundle to `server/modules/build/`, which is mounted into Nakama.
+After saving a `.ts` file, reload it with:
+
+```bash
+docker compose restart nakama
+```
+
+That takes a few seconds and needs no image rebuild. To see compile errors, run
+`docker compose -f docker-compose.yml -f docker-compose.dev.yml logs -f modules`.
+If the code doesn't compile, the last good build stays in place.
+
+Without the dev override, Nakama uses the module baked into the image, so rebuild
+after changes with `docker compose up -d --build nakama`.
+
 For editor type-checking, run `npm install` once in `server/modules`, then `npm run typecheck`.
 
 ## Unity client
 
-1. Add the SDK to `Packages/manifest.json`:
+1. Add the SDK. In the Unity editor, open **Window > Package Manager**, click **+ > Add package
+   from git URL…**, and paste:
+   ```
+   https://github.com/heroiclabs/nakama-unity.git?path=/Packages/Nakama#v3.23.0
+   ```
+   Alternatively, add this line under `"dependencies"` in `<YourUnityProject>/Packages/manifest.json`:
    ```json
-   "com.heroiclabs.nakama-unity": "https://github.com/heroiclabs/nakama-unity.git?path=/Packages/Nakama#v3.23.0"
+   "com.heroiclabs.nakama-unity": "https://github.com/heroiclabs/nakama-unity.git?path=/Packages/Nakama#v3.23.0",
    ```
 2. Copy `unity/Assets/Scripts/Nakama/` into your project's `Assets/`.
 3. Add `NakamaBootstrap` to a GameObject in your first scene and press Play.
