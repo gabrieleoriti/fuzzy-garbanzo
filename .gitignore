@@ -1,0 +1,7 @@
+.env
+node_modules/
+server/modules/build/
+client-check/bin/
+client-check/obj/
+unity/Library/
+unity/Temp/
