@@ -1,0 +1,5202 @@
+[
+  {
+    "id": "keep",
+    "name": "Keep",
+    "category": "core",
+    "maxLevel": 30,
+    "unlockKeepLevel": 0,
+    "produces": "gold",
+    "levels": [
+      {
+        "level": 1,
+        "cost": {
+          "food": 0,
+          "timber": 200,
+          "stone": 150,
+          "iron": 0
+        },
+        "buildTimeSec": 60,
+        "outputPerHour": 100,
+        "keepLevelRequired": 0,
+        "power": 4
+      },
+      {
+        "level": 2,
+        "cost": {
+          "food": 0,
+          "timber": 310,
+          "stone": 233,
+          "iron": 0
+        },
+        "buildTimeSec": 96,
+        "outputPerHour": 125,
+        "keepLevelRequired": 1,
+        "power": 5
+      },
+      {
+        "level": 3,
+        "cost": {
+          "food": 0,
+          "timber": 481,
+          "stone": 360,
+          "iron": 0
+        },
+        "buildTimeSec": 154,
+        "outputPerHour": 156,
+        "keepLevelRequired": 2,
+        "power": 8
+      },
+      {
+        "level": 4,
+        "cost": {
+          "food": 0,
+          "timber": 745,
+          "stone": 559,
+          "iron": 0
+        },
+        "buildTimeSec": 246,
+        "outputPerHour": 195,
+        "keepLevelRequired": 3,
+        "power": 13
+      },
+      {
+        "level": 5,
+        "cost": {
+          "food": 0,
+          "timber": 1154,
+          "stone": 866,
+          "iron": 0
+        },
+        "buildTimeSec": 393,
+        "outputPerHour": 244,
+        "keepLevelRequired": 4,
+        "power": 20
+      },
+      {
+        "level": 6,
+        "cost": {
+          "food": 0,
+          "timber": 1789,
+          "stone": 1342,
+          "iron": 0
+        },
+        "buildTimeSec": 629,
+        "outputPerHour": 305,
+        "keepLevelRequired": 5,
+        "power": 31
+      },
+      {
+        "level": 7,
+        "cost": {
+          "food": 0,
+          "timber": 2773,
+          "stone": 2080,
+          "iron": 0
+        },
+        "buildTimeSec": 1007,
+        "outputPerHour": 381,
+        "keepLevelRequired": 6,
+        "power": 49
+      },
+      {
+        "level": 8,
+        "cost": {
+          "food": 0,
+          "timber": 4299,
+          "stone": 3224,
+          "iron": 0
+        },
+        "buildTimeSec": 1611,
+        "outputPerHour": 477,
+        "keepLevelRequired": 7,
+        "power": 75
+      },
+      {
+        "level": 9,
+        "cost": {
+          "food": 0,
+          "timber": 6663,
+          "stone": 4997,
+          "iron": 0
+        },
+        "buildTimeSec": 2577,
+        "outputPerHour": 596,
+        "keepLevelRequired": 8,
+        "power": 117
+      },
+      {
+        "level": 10,
+        "cost": {
+          "food": 0,
+          "timber": 10328,
+          "stone": 7746,
+          "iron": 0
+        },
+        "buildTimeSec": 4123,
+        "outputPerHour": 745,
+        "keepLevelRequired": 9,
+        "power": 181
+      },
+      {
+        "level": 11,
+        "cost": {
+          "food": 0,
+          "timber": 16008,
+          "stone": 12006,
+          "iron": 0
+        },
+        "buildTimeSec": 6597,
+        "outputPerHour": 931,
+        "keepLevelRequired": 10,
+        "power": 280
+      },
+      {
+        "level": 12,
+        "cost": {
+          "food": 0,
+          "timber": 24813,
+          "stone": 18610,
+          "iron": 0
+        },
+        "buildTimeSec": 10555,
+        "outputPerHour": 1164,
+        "keepLevelRequired": 11,
+        "power": 434
+      },
+      {
+        "level": 13,
+        "cost": {
+          "food": 0,
+          "timber": 38460,
+          "stone": 28845,
+          "iron": 0
+        },
+        "buildTimeSec": 16888,
+        "outputPerHour": 1455,
+        "keepLevelRequired": 12,
+        "power": 673
+      },
+      {
+        "level": 14,
+        "cost": {
+          "food": 0,
+          "timber": 59613,
+          "stone": 44710,
+          "iron": 0
+        },
+        "buildTimeSec": 27022,
+        "outputPerHour": 1819,
+        "keepLevelRequired": 13,
+        "power": 1043
+      },
+      {
+        "level": 15,
+        "cost": {
+          "food": 0,
+          "timber": 92400,
+          "stone": 69300,
+          "iron": 0
+        },
+        "buildTimeSec": 43235,
+        "outputPerHour": 2274,
+        "keepLevelRequired": 14,
+        "power": 1617
+      },
+      {
+        "level": 16,
+        "cost": {
+          "food": 0,
+          "timber": 143221,
+          "stone": 107415,
+          "iron": 0
+        },
+        "buildTimeSec": 69175,
+        "outputPerHour": 2842,
+        "keepLevelRequired": 15,
+        "power": 2506
+      },
+      {
+        "level": 17,
+        "cost": {
+          "food": 0,
+          "timber": 221992,
+          "stone": 166494,
+          "iron": 0
+        },
+        "buildTimeSec": 110680,
+        "outputPerHour": 3553,
+        "keepLevelRequired": 16,
+        "power": 3885
+      },
+      {
+        "level": 18,
+        "cost": {
+          "food": 0,
+          "timber": 344087,
+          "stone": 258066,
+          "iron": 0
+        },
+        "buildTimeSec": 177089,
+        "outputPerHour": 4441,
+        "keepLevelRequired": 17,
+        "power": 6022
+      },
+      {
+        "level": 19,
+        "cost": {
+          "food": 0,
+          "timber": 533336,
+          "stone": 400002,
+          "iron": 0
+        },
+        "buildTimeSec": 283342,
+        "outputPerHour": 5551,
+        "keepLevelRequired": 18,
+        "power": 9333
+      },
+      {
+        "level": 20,
+        "cost": {
+          "food": 0,
+          "timber": 826670,
+          "stone": 620003,
+          "iron": 0
+        },
+        "buildTimeSec": 453347,
+        "outputPerHour": 6939,
+        "keepLevelRequired": 19,
+        "power": 14467
+      },
+      {
+        "level": 21,
+        "cost": {
+          "food": 0,
+          "timber": 1281339,
+          "stone": 961004,
+          "iron": 0
+        },
+        "buildTimeSec": 725355,
+        "outputPerHour": 8674,
+        "keepLevelRequired": 20,
+        "power": 22423
+      },
+      {
+        "level": 22,
+        "cost": {
+          "food": 0,
+          "timber": 1986075,
+          "stone": 1489556,
+          "iron": 0
+        },
+        "buildTimeSec": 1160569,
+        "outputPerHour": 10842,
+        "keepLevelRequired": 21,
+        "power": 34756
+      },
+      {
+        "level": 23,
+        "cost": {
+          "food": 0,
+          "timber": 3078416,
+          "stone": 2308812,
+          "iron": 0
+        },
+        "buildTimeSec": 1856910,
+        "outputPerHour": 13553,
+        "keepLevelRequired": 22,
+        "power": 53872
+      },
+      {
+        "level": 24,
+        "cost": {
+          "food": 0,
+          "timber": 4771545,
+          "stone": 3578659,
+          "iron": 0
+        },
+        "buildTimeSec": 2971056,
+        "outputPerHour": 16941,
+        "keepLevelRequired": 23,
+        "power": 83502
+      },
+      {
+        "level": 25,
+        "cost": {
+          "food": 0,
+          "timber": 7395895,
+          "stone": 5546921,
+          "iron": 0
+        },
+        "buildTimeSec": 4753690,
+        "outputPerHour": 21176,
+        "keepLevelRequired": 24,
+        "power": 129428
+      },
+      {
+        "level": 26,
+        "cost": {
+          "food": 0,
+          "timber": 11463638,
+          "stone": 8597728,
+          "iron": 0
+        },
+        "buildTimeSec": 7605904,
+        "outputPerHour": 26470,
+        "keepLevelRequired": 25,
+        "power": 200614
+      },
+      {
+        "level": 27,
+        "cost": {
+          "food": 0,
+          "timber": 17768638,
+          "stone": 13326479,
+          "iron": 0
+        },
+        "buildTimeSec": 12169446,
+        "outputPerHour": 33087,
+        "keepLevelRequired": 26,
+        "power": 310951
+      },
+      {
+        "level": 28,
+        "cost": {
+          "food": 0,
+          "timber": 27541389,
+          "stone": 20656042,
+          "iron": 0
+        },
+        "buildTimeSec": 19471113,
+        "outputPerHour": 41359,
+        "keepLevelRequired": 27,
+        "power": 481974
+      },
+      {
+        "level": 29,
+        "cost": {
+          "food": 0,
+          "timber": 42689154,
+          "stone": 32016865,
+          "iron": 0
+        },
+        "buildTimeSec": 31153781,
+        "outputPerHour": 51699,
+        "keepLevelRequired": 28,
+        "power": 747060
+      },
+      {
+        "level": 30,
+        "cost": {
+          "food": 0,
+          "timber": 66168188,
+          "stone": 49626141,
+          "iron": 0
+        },
+        "buildTimeSec": 49846050,
+        "outputPerHour": 64623,
+        "keepLevelRequired": 29,
+        "power": 1157943
+      }
+    ]
+  },
+  {
+    "id": "farm",
+    "name": "Farm",
+    "category": "resource",
+    "maxLevel": 30,
+    "unlockKeepLevel": 1,
+    "produces": "food",
+    "levels": [
+      {
+        "level": 1,
+        "cost": {
+          "food": 0,
+          "timber": 100,
+          "stone": 50,
+          "iron": 0
+        },
+        "buildTimeSec": 30,
+        "outputPerHour": 120,
+        "keepLevelRequired": 1,
+        "power": 2
+      },
+      {
+        "level": 2,
+        "cost": {
+          "food": 0,
+          "timber": 140,
+          "stone": 70,
+          "iron": 0
+        },
+        "buildTimeSec": 44,
+        "outputPerHour": 150,
+        "keepLevelRequired": 2,
+        "power": 2
+      },
+      {
+        "level": 3,
+        "cost": {
+          "food": 0,
+          "timber": 196,
+          "stone": 98,
+          "iron": 0
+        },
+        "buildTimeSec": 63,
+        "outputPerHour": 188,
+        "keepLevelRequired": 3,
+        "power": 3
+      },
+      {
+        "level": 4,
+        "cost": {
+          "food": 0,
+          "timber": 274,
+          "stone": 137,
+          "iron": 0
+        },
+        "buildTimeSec": 91,
+        "outputPerHour": 234,
+        "keepLevelRequired": 4,
+        "power": 4
+      },
+      {
+        "level": 5,
+        "cost": {
+          "food": 0,
+          "timber": 384,
+          "stone": 192,
+          "iron": 0
+        },
+        "buildTimeSec": 133,
+        "outputPerHour": 293,
+        "keepLevelRequired": 5,
+        "power": 6
+      },
+      {
+        "level": 6,
+        "cost": {
+          "food": 0,
+          "timber": 538,
+          "stone": 269,
+          "iron": 0
+        },
+        "buildTimeSec": 192,
+        "outputPerHour": 366,
+        "keepLevelRequired": 6,
+        "power": 8
+      },
+      {
+        "level": 7,
+        "cost": {
+          "food": 0,
+          "timber": 753,
+          "stone": 376,
+          "iron": 0
+        },
+        "buildTimeSec": 279,
+        "outputPerHour": 458,
+        "keepLevelRequired": 7,
+        "power": 11
+      },
+      {
+        "level": 8,
+        "cost": {
+          "food": 0,
+          "timber": 1054,
+          "stone": 527,
+          "iron": 0
+        },
+        "buildTimeSec": 404,
+        "outputPerHour": 572,
+        "keepLevelRequired": 8,
+        "power": 16
+      },
+      {
+        "level": 9,
+        "cost": {
+          "food": 0,
+          "timber": 1476,
+          "stone": 738,
+          "iron": 0
+        },
+        "buildTimeSec": 586,
+        "outputPerHour": 715,
+        "keepLevelRequired": 9,
+        "power": 22
+      },
+      {
+        "level": 10,
+        "cost": {
+          "food": 0,
+          "timber": 2066,
+          "stone": 1033,
+          "iron": 0
+        },
+        "buildTimeSec": 850,
+        "outputPerHour": 894,
+        "keepLevelRequired": 10,
+        "power": 31
+      },
+      {
+        "level": 11,
+        "cost": {
+          "food": 0,
+          "timber": 2893,
+          "stone": 1446,
+          "iron": 0
+        },
+        "buildTimeSec": 1233,
+        "outputPerHour": 1118,
+        "keepLevelRequired": 11,
+        "power": 43
+      },
+      {
+        "level": 12,
+        "cost": {
+          "food": 0,
+          "timber": 4050,
+          "stone": 2025,
+          "iron": 0
+        },
+        "buildTimeSec": 1787,
+        "outputPerHour": 1397,
+        "keepLevelRequired": 12,
+        "power": 61
+      },
+      {
+        "level": 13,
+        "cost": {
+          "food": 0,
+          "timber": 5669,
+          "stone": 2835,
+          "iron": 0
+        },
+        "buildTimeSec": 2591,
+        "outputPerHour": 1746,
+        "keepLevelRequired": 13,
+        "power": 85
+      },
+      {
+        "level": 14,
+        "cost": {
+          "food": 0,
+          "timber": 7937,
+          "stone": 3969,
+          "iron": 0
+        },
+        "buildTimeSec": 3758,
+        "outputPerHour": 2183,
+        "keepLevelRequired": 14,
+        "power": 119
+      },
+      {
+        "level": 15,
+        "cost": {
+          "food": 0,
+          "timber": 11112,
+          "stone": 5556,
+          "iron": 0
+        },
+        "buildTimeSec": 5448,
+        "outputPerHour": 2728,
+        "keepLevelRequired": 15,
+        "power": 167
+      },
+      {
+        "level": 16,
+        "cost": {
+          "food": 0,
+          "timber": 15557,
+          "stone": 7778,
+          "iron": 0
+        },
+        "buildTimeSec": 7900,
+        "outputPerHour": 3411,
+        "keepLevelRequired": 16,
+        "power": 233
+      },
+      {
+        "level": 17,
+        "cost": {
+          "food": 0,
+          "timber": 21780,
+          "stone": 10890,
+          "iron": 0
+        },
+        "buildTimeSec": 11455,
+        "outputPerHour": 4263,
+        "keepLevelRequired": 17,
+        "power": 327
+      },
+      {
+        "level": 18,
+        "cost": {
+          "food": 0,
+          "timber": 30491,
+          "stone": 15246,
+          "iron": 0
+        },
+        "buildTimeSec": 16610,
+        "outputPerHour": 5329,
+        "keepLevelRequired": 18,
+        "power": 457
+      },
+      {
+        "level": 19,
+        "cost": {
+          "food": 0,
+          "timber": 42688,
+          "stone": 21344,
+          "iron": 0
+        },
+        "buildTimeSec": 24085,
+        "outputPerHour": 6661,
+        "keepLevelRequired": 19,
+        "power": 640
+      },
+      {
+        "level": 20,
+        "cost": {
+          "food": 0,
+          "timber": 59763,
+          "stone": 29882,
+          "iron": 0
+        },
+        "buildTimeSec": 34923,
+        "outputPerHour": 8327,
+        "keepLevelRequired": 20,
+        "power": 896
+      },
+      {
+        "level": 21,
+        "cost": {
+          "food": 0,
+          "timber": 83668,
+          "stone": 41834,
+          "iron": 0
+        },
+        "buildTimeSec": 50639,
+        "outputPerHour": 10408,
+        "keepLevelRequired": 21,
+        "power": 1255
+      },
+      {
+        "level": 22,
+        "cost": {
+          "food": 0,
+          "timber": 117136,
+          "stone": 58568,
+          "iron": 0
+        },
+        "buildTimeSec": 73426,
+        "outputPerHour": 13010,
+        "keepLevelRequired": 22,
+        "power": 1757
+      },
+      {
+        "level": 23,
+        "cost": {
+          "food": 0,
+          "timber": 163990,
+          "stone": 81995,
+          "iron": 0
+        },
+        "buildTimeSec": 106468,
+        "outputPerHour": 16263,
+        "keepLevelRequired": 23,
+        "power": 2460
+      },
+      {
+        "level": 24,
+        "cost": {
+          "food": 0,
+          "timber": 229586,
+          "stone": 114793,
+          "iron": 0
+        },
+        "buildTimeSec": 154378,
+        "outputPerHour": 20329,
+        "keepLevelRequired": 24,
+        "power": 3444
+      },
+      {
+        "level": 25,
+        "cost": {
+          "food": 0,
+          "timber": 321420,
+          "stone": 160710,
+          "iron": 0
+        },
+        "buildTimeSec": 223848,
+        "outputPerHour": 25411,
+        "keepLevelRequired": 25,
+        "power": 4821
+      },
+      {
+        "level": 26,
+        "cost": {
+          "food": 0,
+          "timber": 449988,
+          "stone": 224994,
+          "iron": 0
+        },
+        "buildTimeSec": 324580,
+        "outputPerHour": 31764,
+        "keepLevelRequired": 26,
+        "power": 6750
+      },
+      {
+        "level": 27,
+        "cost": {
+          "food": 0,
+          "timber": 629983,
+          "stone": 314992,
+          "iron": 0
+        },
+        "buildTimeSec": 470641,
+        "outputPerHour": 39705,
+        "keepLevelRequired": 27,
+        "power": 9450
+      },
+      {
+        "level": 28,
+        "cost": {
+          "food": 0,
+          "timber": 881976,
+          "stone": 440988,
+          "iron": 0
+        },
+        "buildTimeSec": 682429,
+        "outputPerHour": 49631,
+        "keepLevelRequired": 28,
+        "power": 13230
+      },
+      {
+        "level": 29,
+        "cost": {
+          "food": 0,
+          "timber": 1234767,
+          "stone": 617383,
+          "iron": 0
+        },
+        "buildTimeSec": 989522,
+        "outputPerHour": 62039,
+        "keepLevelRequired": 29,
+        "power": 18522
+      },
+      {
+        "level": 30,
+        "cost": {
+          "food": 0,
+          "timber": 1728674,
+          "stone": 864337,
+          "iron": 0
+        },
+        "buildTimeSec": 1434806,
+        "outputPerHour": 77548,
+        "keepLevelRequired": 30,
+        "power": 25930
+      }
+    ]
+  },
+  {
+    "id": "lumber_mill",
+    "name": "Lumber Mill",
+    "category": "resource",
+    "maxLevel": 30,
+    "unlockKeepLevel": 1,
+    "produces": "timber",
+    "levels": [
+      {
+        "level": 1,
+        "cost": {
+          "food": 100,
+          "timber": 0,
+          "stone": 50,
+          "iron": 0
+        },
+        "buildTimeSec": 30,
+        "outputPerHour": 120,
+        "keepLevelRequired": 1,
+        "power": 2
+      },
+      {
+        "level": 2,
+        "cost": {
+          "food": 140,
+          "timber": 0,
+          "stone": 70,
+          "iron": 0
+        },
+        "buildTimeSec": 44,
+        "outputPerHour": 150,
+        "keepLevelRequired": 2,
+        "power": 2
+      },
+      {
+        "level": 3,
+        "cost": {
+          "food": 196,
+          "timber": 0,
+          "stone": 98,
+          "iron": 0
+        },
+        "buildTimeSec": 63,
+        "outputPerHour": 188,
+        "keepLevelRequired": 3,
+        "power": 3
+      },
+      {
+        "level": 4,
+        "cost": {
+          "food": 274,
+          "timber": 0,
+          "stone": 137,
+          "iron": 0
+        },
+        "buildTimeSec": 91,
+        "outputPerHour": 234,
+        "keepLevelRequired": 4,
+        "power": 4
+      },
+      {
+        "level": 5,
+        "cost": {
+          "food": 384,
+          "timber": 0,
+          "stone": 192,
+          "iron": 0
+        },
+        "buildTimeSec": 133,
+        "outputPerHour": 293,
+        "keepLevelRequired": 5,
+        "power": 6
+      },
+      {
+        "level": 6,
+        "cost": {
+          "food": 538,
+          "timber": 0,
+          "stone": 269,
+          "iron": 0
+        },
+        "buildTimeSec": 192,
+        "outputPerHour": 366,
+        "keepLevelRequired": 6,
+        "power": 8
+      },
+      {
+        "level": 7,
+        "cost": {
+          "food": 753,
+          "timber": 0,
+          "stone": 376,
+          "iron": 0
+        },
+        "buildTimeSec": 279,
+        "outputPerHour": 458,
+        "keepLevelRequired": 7,
+        "power": 11
+      },
+      {
+        "level": 8,
+        "cost": {
+          "food": 1054,
+          "timber": 0,
+          "stone": 527,
+          "iron": 0
+        },
+        "buildTimeSec": 404,
+        "outputPerHour": 572,
+        "keepLevelRequired": 8,
+        "power": 16
+      },
+      {
+        "level": 9,
+        "cost": {
+          "food": 1476,
+          "timber": 0,
+          "stone": 738,
+          "iron": 0
+        },
+        "buildTimeSec": 586,
+        "outputPerHour": 715,
+        "keepLevelRequired": 9,
+        "power": 22
+      },
+      {
+        "level": 10,
+        "cost": {
+          "food": 2066,
+          "timber": 0,
+          "stone": 1033,
+          "iron": 0
+        },
+        "buildTimeSec": 850,
+        "outputPerHour": 894,
+        "keepLevelRequired": 10,
+        "power": 31
+      },
+      {
+        "level": 11,
+        "cost": {
+          "food": 2893,
+          "timber": 0,
+          "stone": 1446,
+          "iron": 0
+        },
+        "buildTimeSec": 1233,
+        "outputPerHour": 1118,
+        "keepLevelRequired": 11,
+        "power": 43
+      },
+      {
+        "level": 12,
+        "cost": {
+          "food": 4050,
+          "timber": 0,
+          "stone": 2025,
+          "iron": 0
+        },
+        "buildTimeSec": 1787,
+        "outputPerHour": 1397,
+        "keepLevelRequired": 12,
+        "power": 61
+      },
+      {
+        "level": 13,
+        "cost": {
+          "food": 5669,
+          "timber": 0,
+          "stone": 2835,
+          "iron": 0
+        },
+        "buildTimeSec": 2591,
+        "outputPerHour": 1746,
+        "keepLevelRequired": 13,
+        "power": 85
+      },
+      {
+        "level": 14,
+        "cost": {
+          "food": 7937,
+          "timber": 0,
+          "stone": 3969,
+          "iron": 0
+        },
+        "buildTimeSec": 3758,
+        "outputPerHour": 2183,
+        "keepLevelRequired": 14,
+        "power": 119
+      },
+      {
+        "level": 15,
+        "cost": {
+          "food": 11112,
+          "timber": 0,
+          "stone": 5556,
+          "iron": 0
+        },
+        "buildTimeSec": 5448,
+        "outputPerHour": 2728,
+        "keepLevelRequired": 15,
+        "power": 167
+      },
+      {
+        "level": 16,
+        "cost": {
+          "food": 15557,
+          "timber": 0,
+          "stone": 7778,
+          "iron": 0
+        },
+        "buildTimeSec": 7900,
+        "outputPerHour": 3411,
+        "keepLevelRequired": 16,
+        "power": 233
+      },
+      {
+        "level": 17,
+        "cost": {
+          "food": 21780,
+          "timber": 0,
+          "stone": 10890,
+          "iron": 0
+        },
+        "buildTimeSec": 11455,
+        "outputPerHour": 4263,
+        "keepLevelRequired": 17,
+        "power": 327
+      },
+      {
+        "level": 18,
+        "cost": {
+          "food": 30491,
+          "timber": 0,
+          "stone": 15246,
+          "iron": 0
+        },
+        "buildTimeSec": 16610,
+        "outputPerHour": 5329,
+        "keepLevelRequired": 18,
+        "power": 457
+      },
+      {
+        "level": 19,
+        "cost": {
+          "food": 42688,
+          "timber": 0,
+          "stone": 21344,
+          "iron": 0
+        },
+        "buildTimeSec": 24085,
+        "outputPerHour": 6661,
+        "keepLevelRequired": 19,
+        "power": 640
+      },
+      {
+        "level": 20,
+        "cost": {
+          "food": 59763,
+          "timber": 0,
+          "stone": 29882,
+          "iron": 0
+        },
+        "buildTimeSec": 34923,
+        "outputPerHour": 8327,
+        "keepLevelRequired": 20,
+        "power": 896
+      },
+      {
+        "level": 21,
+        "cost": {
+          "food": 83668,
+          "timber": 0,
+          "stone": 41834,
+          "iron": 0
+        },
+        "buildTimeSec": 50639,
+        "outputPerHour": 10408,
+        "keepLevelRequired": 21,
+        "power": 1255
+      },
+      {
+        "level": 22,
+        "cost": {
+          "food": 117136,
+          "timber": 0,
+          "stone": 58568,
+          "iron": 0
+        },
+        "buildTimeSec": 73426,
+        "outputPerHour": 13010,
+        "keepLevelRequired": 22,
+        "power": 1757
+      },
+      {
+        "level": 23,
+        "cost": {
+          "food": 163990,
+          "timber": 0,
+          "stone": 81995,
+          "iron": 0
+        },
+        "buildTimeSec": 106468,
+        "outputPerHour": 16263,
+        "keepLevelRequired": 23,
+        "power": 2460
+      },
+      {
+        "level": 24,
+        "cost": {
+          "food": 229586,
+          "timber": 0,
+          "stone": 114793,
+          "iron": 0
+        },
+        "buildTimeSec": 154378,
+        "outputPerHour": 20329,
+        "keepLevelRequired": 24,
+        "power": 3444
+      },
+      {
+        "level": 25,
+        "cost": {
+          "food": 321420,
+          "timber": 0,
+          "stone": 160710,
+          "iron": 0
+        },
+        "buildTimeSec": 223848,
+        "outputPerHour": 25411,
+        "keepLevelRequired": 25,
+        "power": 4821
+      },
+      {
+        "level": 26,
+        "cost": {
+          "food": 449988,
+          "timber": 0,
+          "stone": 224994,
+          "iron": 0
+        },
+        "buildTimeSec": 324580,
+        "outputPerHour": 31764,
+        "keepLevelRequired": 26,
+        "power": 6750
+      },
+      {
+        "level": 27,
+        "cost": {
+          "food": 629983,
+          "timber": 0,
+          "stone": 314992,
+          "iron": 0
+        },
+        "buildTimeSec": 470641,
+        "outputPerHour": 39705,
+        "keepLevelRequired": 27,
+        "power": 9450
+      },
+      {
+        "level": 28,
+        "cost": {
+          "food": 881976,
+          "timber": 0,
+          "stone": 440988,
+          "iron": 0
+        },
+        "buildTimeSec": 682429,
+        "outputPerHour": 49631,
+        "keepLevelRequired": 28,
+        "power": 13230
+      },
+      {
+        "level": 29,
+        "cost": {
+          "food": 1234767,
+          "timber": 0,
+          "stone": 617383,
+          "iron": 0
+        },
+        "buildTimeSec": 989522,
+        "outputPerHour": 62039,
+        "keepLevelRequired": 29,
+        "power": 18522
+      },
+      {
+        "level": 30,
+        "cost": {
+          "food": 1728674,
+          "timber": 0,
+          "stone": 864337,
+          "iron": 0
+        },
+        "buildTimeSec": 1434806,
+        "outputPerHour": 77548,
+        "keepLevelRequired": 30,
+        "power": 25930
+      }
+    ]
+  },
+  {
+    "id": "quarry",
+    "name": "Quarry",
+    "category": "resource",
+    "maxLevel": 30,
+    "unlockKeepLevel": 3,
+    "produces": "stone",
+    "levels": [
+      {
+        "level": 1,
+        "cost": {
+          "food": 120,
+          "timber": 100,
+          "stone": 0,
+          "iron": 0
+        },
+        "buildTimeSec": 45,
+        "outputPerHour": 90,
+        "keepLevelRequired": 3,
+        "power": 2
+      },
+      {
+        "level": 2,
+        "cost": {
+          "food": 168,
+          "timber": 140,
+          "stone": 0,
+          "iron": 0
+        },
+        "buildTimeSec": 65,
+        "outputPerHour": 113,
+        "keepLevelRequired": 3,
+        "power": 3
+      },
+      {
+        "level": 3,
+        "cost": {
+          "food": 235,
+          "timber": 196,
+          "stone": 0,
+          "iron": 0
+        },
+        "buildTimeSec": 95,
+        "outputPerHour": 141,
+        "keepLevelRequired": 3,
+        "power": 4
+      },
+      {
+        "level": 4,
+        "cost": {
+          "food": 329,
+          "timber": 274,
+          "stone": 0,
+          "iron": 0
+        },
+        "buildTimeSec": 137,
+        "outputPerHour": 176,
+        "keepLevelRequired": 4,
+        "power": 6
+      },
+      {
+        "level": 5,
+        "cost": {
+          "food": 461,
+          "timber": 384,
+          "stone": 0,
+          "iron": 0
+        },
+        "buildTimeSec": 199,
+        "outputPerHour": 220,
+        "keepLevelRequired": 5,
+        "power": 8
+      },
+      {
+        "level": 6,
+        "cost": {
+          "food": 645,
+          "timber": 538,
+          "stone": 0,
+          "iron": 0
+        },
+        "buildTimeSec": 288,
+        "outputPerHour": 275,
+        "keepLevelRequired": 6,
+        "power": 12
+      },
+      {
+        "level": 7,
+        "cost": {
+          "food": 904,
+          "timber": 753,
+          "stone": 0,
+          "iron": 0
+        },
+        "buildTimeSec": 418,
+        "outputPerHour": 343,
+        "keepLevelRequired": 7,
+        "power": 17
+      },
+      {
+        "level": 8,
+        "cost": {
+          "food": 1265,
+          "timber": 1054,
+          "stone": 0,
+          "iron": 0
+        },
+        "buildTimeSec": 606,
+        "outputPerHour": 429,
+        "keepLevelRequired": 8,
+        "power": 23
+      },
+      {
+        "level": 9,
+        "cost": {
+          "food": 1771,
+          "timber": 1476,
+          "stone": 0,
+          "iron": 0
+        },
+        "buildTimeSec": 879,
+        "outputPerHour": 536,
+        "keepLevelRequired": 9,
+        "power": 32
+      },
+      {
+        "level": 10,
+        "cost": {
+          "food": 2479,
+          "timber": 2066,
+          "stone": 0,
+          "iron": 0
+        },
+        "buildTimeSec": 1275,
+        "outputPerHour": 671,
+        "keepLevelRequired": 10,
+        "power": 45
+      },
+      {
+        "level": 11,
+        "cost": {
+          "food": 3471,
+          "timber": 2893,
+          "stone": 0,
+          "iron": 0
+        },
+        "buildTimeSec": 1849,
+        "outputPerHour": 838,
+        "keepLevelRequired": 11,
+        "power": 64
+      },
+      {
+        "level": 12,
+        "cost": {
+          "food": 4859,
+          "timber": 4050,
+          "stone": 0,
+          "iron": 0
+        },
+        "buildTimeSec": 2681,
+        "outputPerHour": 1048,
+        "keepLevelRequired": 12,
+        "power": 89
+      },
+      {
+        "level": 13,
+        "cost": {
+          "food": 6803,
+          "timber": 5669,
+          "stone": 0,
+          "iron": 0
+        },
+        "buildTimeSec": 3887,
+        "outputPerHour": 1310,
+        "keepLevelRequired": 13,
+        "power": 125
+      },
+      {
+        "level": 14,
+        "cost": {
+          "food": 9525,
+          "timber": 7937,
+          "stone": 0,
+          "iron": 0
+        },
+        "buildTimeSec": 5636,
+        "outputPerHour": 1637,
+        "keepLevelRequired": 14,
+        "power": 175
+      },
+      {
+        "level": 15,
+        "cost": {
+          "food": 13334,
+          "timber": 11112,
+          "stone": 0,
+          "iron": 0
+        },
+        "buildTimeSec": 8173,
+        "outputPerHour": 2046,
+        "keepLevelRequired": 15,
+        "power": 244
+      },
+      {
+        "level": 16,
+        "cost": {
+          "food": 18668,
+          "timber": 15557,
+          "stone": 0,
+          "iron": 0
+        },
+        "buildTimeSec": 11850,
+        "outputPerHour": 2558,
+        "keepLevelRequired": 16,
+        "power": 342
+      },
+      {
+        "level": 17,
+        "cost": {
+          "food": 26135,
+          "timber": 21780,
+          "stone": 0,
+          "iron": 0
+        },
+        "buildTimeSec": 17183,
+        "outputPerHour": 3197,
+        "keepLevelRequired": 17,
+        "power": 479
+      },
+      {
+        "level": 18,
+        "cost": {
+          "food": 36590,
+          "timber": 30491,
+          "stone": 0,
+          "iron": 0
+        },
+        "buildTimeSec": 24915,
+        "outputPerHour": 3997,
+        "keepLevelRequired": 18,
+        "power": 671
+      },
+      {
+        "level": 19,
+        "cost": {
+          "food": 51225,
+          "timber": 42688,
+          "stone": 0,
+          "iron": 0
+        },
+        "buildTimeSec": 36127,
+        "outputPerHour": 4996,
+        "keepLevelRequired": 19,
+        "power": 939
+      },
+      {
+        "level": 20,
+        "cost": {
+          "food": 71716,
+          "timber": 59763,
+          "stone": 0,
+          "iron": 0
+        },
+        "buildTimeSec": 52385,
+        "outputPerHour": 6245,
+        "keepLevelRequired": 20,
+        "power": 1315
+      },
+      {
+        "level": 21,
+        "cost": {
+          "food": 100402,
+          "timber": 83668,
+          "stone": 0,
+          "iron": 0
+        },
+        "buildTimeSec": 75958,
+        "outputPerHour": 7806,
+        "keepLevelRequired": 21,
+        "power": 1841
+      },
+      {
+        "level": 22,
+        "cost": {
+          "food": 140563,
+          "timber": 117136,
+          "stone": 0,
+          "iron": 0
+        },
+        "buildTimeSec": 110139,
+        "outputPerHour": 9758,
+        "keepLevelRequired": 22,
+        "power": 2577
+      },
+      {
+        "level": 23,
+        "cost": {
+          "food": 196788,
+          "timber": 163990,
+          "stone": 0,
+          "iron": 0
+        },
+        "buildTimeSec": 159701,
+        "outputPerHour": 12197,
+        "keepLevelRequired": 23,
+        "power": 3608
+      },
+      {
+        "level": 24,
+        "cost": {
+          "food": 275503,
+          "timber": 229586,
+          "stone": 0,
+          "iron": 0
+        },
+        "buildTimeSec": 231567,
+        "outputPerHour": 15247,
+        "keepLevelRequired": 24,
+        "power": 5051
+      },
+      {
+        "level": 25,
+        "cost": {
+          "food": 385704,
+          "timber": 321420,
+          "stone": 0,
+          "iron": 0
+        },
+        "buildTimeSec": 335772,
+        "outputPerHour": 19058,
+        "keepLevelRequired": 25,
+        "power": 7071
+      },
+      {
+        "level": 26,
+        "cost": {
+          "food": 539986,
+          "timber": 449988,
+          "stone": 0,
+          "iron": 0
+        },
+        "buildTimeSec": 486870,
+        "outputPerHour": 23823,
+        "keepLevelRequired": 26,
+        "power": 9900
+      },
+      {
+        "level": 27,
+        "cost": {
+          "food": 755980,
+          "timber": 629983,
+          "stone": 0,
+          "iron": 0
+        },
+        "buildTimeSec": 705961,
+        "outputPerHour": 29779,
+        "keepLevelRequired": 27,
+        "power": 13860
+      },
+      {
+        "level": 28,
+        "cost": {
+          "food": 1058372,
+          "timber": 881976,
+          "stone": 0,
+          "iron": 0
+        },
+        "buildTimeSec": 1023643,
+        "outputPerHour": 37223,
+        "keepLevelRequired": 28,
+        "power": 19403
+      },
+      {
+        "level": 29,
+        "cost": {
+          "food": 1481720,
+          "timber": 1234767,
+          "stone": 0,
+          "iron": 0
+        },
+        "buildTimeSec": 1484283,
+        "outputPerHour": 46529,
+        "keepLevelRequired": 29,
+        "power": 27165
+      },
+      {
+        "level": 30,
+        "cost": {
+          "food": 2074408,
+          "timber": 1728674,
+          "stone": 0,
+          "iron": 0
+        },
+        "buildTimeSec": 2152210,
+        "outputPerHour": 58161,
+        "keepLevelRequired": 30,
+        "power": 38031
+      }
+    ]
+  },
+  {
+    "id": "iron_mine",
+    "name": "Iron Mine",
+    "category": "resource",
+    "maxLevel": 30,
+    "unlockKeepLevel": 6,
+    "produces": "iron",
+    "levels": [
+      {
+        "level": 1,
+        "cost": {
+          "food": 150,
+          "timber": 150,
+          "stone": 100,
+          "iron": 0
+        },
+        "buildTimeSec": 60,
+        "outputPerHour": 60,
+        "keepLevelRequired": 6,
+        "power": 4
+      },
+      {
+        "level": 2,
+        "cost": {
+          "food": 210,
+          "timber": 210,
+          "stone": 140,
+          "iron": 0
+        },
+        "buildTimeSec": 87,
+        "outputPerHour": 75,
+        "keepLevelRequired": 6,
+        "power": 6
+      },
+      {
+        "level": 3,
+        "cost": {
+          "food": 294,
+          "timber": 294,
+          "stone": 196,
+          "iron": 0
+        },
+        "buildTimeSec": 126,
+        "outputPerHour": 94,
+        "keepLevelRequired": 6,
+        "power": 8
+      },
+      {
+        "level": 4,
+        "cost": {
+          "food": 412,
+          "timber": 412,
+          "stone": 274,
+          "iron": 0
+        },
+        "buildTimeSec": 183,
+        "outputPerHour": 117,
+        "keepLevelRequired": 6,
+        "power": 11
+      },
+      {
+        "level": 5,
+        "cost": {
+          "food": 576,
+          "timber": 576,
+          "stone": 384,
+          "iron": 0
+        },
+        "buildTimeSec": 265,
+        "outputPerHour": 146,
+        "keepLevelRequired": 6,
+        "power": 15
+      },
+      {
+        "level": 6,
+        "cost": {
+          "food": 807,
+          "timber": 807,
+          "stone": 538,
+          "iron": 0
+        },
+        "buildTimeSec": 385,
+        "outputPerHour": 183,
+        "keepLevelRequired": 6,
+        "power": 22
+      },
+      {
+        "level": 7,
+        "cost": {
+          "food": 1129,
+          "timber": 1129,
+          "stone": 753,
+          "iron": 0
+        },
+        "buildTimeSec": 558,
+        "outputPerHour": 229,
+        "keepLevelRequired": 7,
+        "power": 30
+      },
+      {
+        "level": 8,
+        "cost": {
+          "food": 1581,
+          "timber": 1581,
+          "stone": 1054,
+          "iron": 0
+        },
+        "buildTimeSec": 809,
+        "outputPerHour": 286,
+        "keepLevelRequired": 8,
+        "power": 42
+      },
+      {
+        "level": 9,
+        "cost": {
+          "food": 2214,
+          "timber": 2214,
+          "stone": 1476,
+          "iron": 0
+        },
+        "buildTimeSec": 1172,
+        "outputPerHour": 358,
+        "keepLevelRequired": 9,
+        "power": 59
+      },
+      {
+        "level": 10,
+        "cost": {
+          "food": 3099,
+          "timber": 3099,
+          "stone": 2066,
+          "iron": 0
+        },
+        "buildTimeSec": 1700,
+        "outputPerHour": 447,
+        "keepLevelRequired": 10,
+        "power": 83
+      },
+      {
+        "level": 11,
+        "cost": {
+          "food": 4339,
+          "timber": 4339,
+          "stone": 2893,
+          "iron": 0
+        },
+        "buildTimeSec": 2465,
+        "outputPerHour": 559,
+        "keepLevelRequired": 11,
+        "power": 116
+      },
+      {
+        "level": 12,
+        "cost": {
+          "food": 6074,
+          "timber": 6074,
+          "stone": 4050,
+          "iron": 0
+        },
+        "buildTimeSec": 3574,
+        "outputPerHour": 698,
+        "keepLevelRequired": 12,
+        "power": 162
+      },
+      {
+        "level": 13,
+        "cost": {
+          "food": 8504,
+          "timber": 8504,
+          "stone": 5669,
+          "iron": 0
+        },
+        "buildTimeSec": 5183,
+        "outputPerHour": 873,
+        "keepLevelRequired": 13,
+        "power": 227
+      },
+      {
+        "level": 14,
+        "cost": {
+          "food": 11906,
+          "timber": 11906,
+          "stone": 7937,
+          "iron": 0
+        },
+        "buildTimeSec": 7515,
+        "outputPerHour": 1091,
+        "keepLevelRequired": 14,
+        "power": 317
+      },
+      {
+        "level": 15,
+        "cost": {
+          "food": 16668,
+          "timber": 16668,
+          "stone": 11112,
+          "iron": 0
+        },
+        "buildTimeSec": 10897,
+        "outputPerHour": 1364,
+        "keepLevelRequired": 15,
+        "power": 444
+      },
+      {
+        "level": 16,
+        "cost": {
+          "food": 23335,
+          "timber": 23335,
+          "stone": 15557,
+          "iron": 0
+        },
+        "buildTimeSec": 15801,
+        "outputPerHour": 1705,
+        "keepLevelRequired": 16,
+        "power": 622
+      },
+      {
+        "level": 17,
+        "cost": {
+          "food": 32669,
+          "timber": 32669,
+          "stone": 21780,
+          "iron": 0
+        },
+        "buildTimeSec": 22911,
+        "outputPerHour": 2132,
+        "keepLevelRequired": 17,
+        "power": 871
+      },
+      {
+        "level": 18,
+        "cost": {
+          "food": 45737,
+          "timber": 45737,
+          "stone": 30491,
+          "iron": 0
+        },
+        "buildTimeSec": 33221,
+        "outputPerHour": 2665,
+        "keepLevelRequired": 18,
+        "power": 1220
+      },
+      {
+        "level": 19,
+        "cost": {
+          "food": 64032,
+          "timber": 64032,
+          "stone": 42688,
+          "iron": 0
+        },
+        "buildTimeSec": 48170,
+        "outputPerHour": 3331,
+        "keepLevelRequired": 19,
+        "power": 1708
+      },
+      {
+        "level": 20,
+        "cost": {
+          "food": 89645,
+          "timber": 89645,
+          "stone": 59763,
+          "iron": 0
+        },
+        "buildTimeSec": 69846,
+        "outputPerHour": 4163,
+        "keepLevelRequired": 20,
+        "power": 2391
+      },
+      {
+        "level": 21,
+        "cost": {
+          "food": 125502,
+          "timber": 125502,
+          "stone": 83668,
+          "iron": 0
+        },
+        "buildTimeSec": 101277,
+        "outputPerHour": 5204,
+        "keepLevelRequired": 21,
+        "power": 3347
+      },
+      {
+        "level": 22,
+        "cost": {
+          "food": 175703,
+          "timber": 175703,
+          "stone": 117136,
+          "iron": 0
+        },
+        "buildTimeSec": 146852,
+        "outputPerHour": 6505,
+        "keepLevelRequired": 22,
+        "power": 4685
+      },
+      {
+        "level": 23,
+        "cost": {
+          "food": 245985,
+          "timber": 245985,
+          "stone": 163990,
+          "iron": 0
+        },
+        "buildTimeSec": 212935,
+        "outputPerHour": 8132,
+        "keepLevelRequired": 23,
+        "power": 6560
+      },
+      {
+        "level": 24,
+        "cost": {
+          "food": 344379,
+          "timber": 344379,
+          "stone": 229586,
+          "iron": 0
+        },
+        "buildTimeSec": 308756,
+        "outputPerHour": 10164,
+        "keepLevelRequired": 24,
+        "power": 9183
+      },
+      {
+        "level": 25,
+        "cost": {
+          "food": 482130,
+          "timber": 482130,
+          "stone": 321420,
+          "iron": 0
+        },
+        "buildTimeSec": 447696,
+        "outputPerHour": 12705,
+        "keepLevelRequired": 25,
+        "power": 12857
+      },
+      {
+        "level": 26,
+        "cost": {
+          "food": 674982,
+          "timber": 674982,
+          "stone": 449988,
+          "iron": 0
+        },
+        "buildTimeSec": 649159,
+        "outputPerHour": 15882,
+        "keepLevelRequired": 26,
+        "power": 18000
+      },
+      {
+        "level": 27,
+        "cost": {
+          "food": 944975,
+          "timber": 944975,
+          "stone": 629983,
+          "iron": 0
+        },
+        "buildTimeSec": 941281,
+        "outputPerHour": 19852,
+        "keepLevelRequired": 27,
+        "power": 25199
+      },
+      {
+        "level": 28,
+        "cost": {
+          "food": 1322965,
+          "timber": 1322965,
+          "stone": 881976,
+          "iron": 0
+        },
+        "buildTimeSec": 1364858,
+        "outputPerHour": 24815,
+        "keepLevelRequired": 28,
+        "power": 35279
+      },
+      {
+        "level": 29,
+        "cost": {
+          "food": 1852150,
+          "timber": 1852150,
+          "stone": 1234767,
+          "iron": 0
+        },
+        "buildTimeSec": 1979043,
+        "outputPerHour": 31019,
+        "keepLevelRequired": 29,
+        "power": 49391
+      },
+      {
+        "level": 30,
+        "cost": {
+          "food": 2593011,
+          "timber": 2593011,
+          "stone": 1728674,
+          "iron": 0
+        },
+        "buildTimeSec": 2869613,
+        "outputPerHour": 38774,
+        "keepLevelRequired": 30,
+        "power": 69147
+      }
+    ]
+  },
+  {
+    "id": "warehouse",
+    "name": "Warehouse",
+    "category": "economy",
+    "maxLevel": 30,
+    "unlockKeepLevel": 2,
+    "produces": null,
+    "levels": [
+      {
+        "level": 1,
+        "cost": {
+          "food": 100,
+          "timber": 150,
+          "stone": 100,
+          "iron": 0
+        },
+        "buildTimeSec": 45,
+        "outputPerHour": 0,
+        "keepLevelRequired": 2,
+        "power": 4
+      },
+      {
+        "level": 2,
+        "cost": {
+          "food": 145,
+          "timber": 218,
+          "stone": 145,
+          "iron": 0
+        },
+        "buildTimeSec": 68,
+        "outputPerHour": 0,
+        "keepLevelRequired": 2,
+        "power": 5
+      },
+      {
+        "level": 3,
+        "cost": {
+          "food": 210,
+          "timber": 315,
+          "stone": 210,
+          "iron": 0
+        },
+        "buildTimeSec": 101,
+        "outputPerHour": 0,
+        "keepLevelRequired": 3,
+        "power": 7
+      },
+      {
+        "level": 4,
+        "cost": {
+          "food": 305,
+          "timber": 457,
+          "stone": 305,
+          "iron": 0
+        },
+        "buildTimeSec": 152,
+        "outputPerHour": 0,
+        "keepLevelRequired": 4,
+        "power": 11
+      },
+      {
+        "level": 5,
+        "cost": {
+          "food": 442,
+          "timber": 663,
+          "stone": 442,
+          "iron": 0
+        },
+        "buildTimeSec": 228,
+        "outputPerHour": 0,
+        "keepLevelRequired": 5,
+        "power": 15
+      },
+      {
+        "level": 6,
+        "cost": {
+          "food": 641,
+          "timber": 961,
+          "stone": 641,
+          "iron": 0
+        },
+        "buildTimeSec": 342,
+        "outputPerHour": 0,
+        "keepLevelRequired": 6,
+        "power": 22
+      },
+      {
+        "level": 7,
+        "cost": {
+          "food": 929,
+          "timber": 1394,
+          "stone": 929,
+          "iron": 0
+        },
+        "buildTimeSec": 513,
+        "outputPerHour": 0,
+        "keepLevelRequired": 7,
+        "power": 33
+      },
+      {
+        "level": 8,
+        "cost": {
+          "food": 1348,
+          "timber": 2021,
+          "stone": 1348,
+          "iron": 0
+        },
+        "buildTimeSec": 769,
+        "outputPerHour": 0,
+        "keepLevelRequired": 8,
+        "power": 47
+      },
+      {
+        "level": 9,
+        "cost": {
+          "food": 1954,
+          "timber": 2931,
+          "stone": 1954,
+          "iron": 0
+        },
+        "buildTimeSec": 1153,
+        "outputPerHour": 0,
+        "keepLevelRequired": 9,
+        "power": 68
+      },
+      {
+        "level": 10,
+        "cost": {
+          "food": 2833,
+          "timber": 4250,
+          "stone": 2833,
+          "iron": 0
+        },
+        "buildTimeSec": 1730,
+        "outputPerHour": 0,
+        "keepLevelRequired": 10,
+        "power": 99
+      },
+      {
+        "level": 11,
+        "cost": {
+          "food": 4108,
+          "timber": 6163,
+          "stone": 4108,
+          "iron": 0
+        },
+        "buildTimeSec": 2595,
+        "outputPerHour": 0,
+        "keepLevelRequired": 11,
+        "power": 144
+      },
+      {
+        "level": 12,
+        "cost": {
+          "food": 5957,
+          "timber": 8936,
+          "stone": 5957,
+          "iron": 0
+        },
+        "buildTimeSec": 3892,
+        "outputPerHour": 0,
+        "keepLevelRequired": 12,
+        "power": 209
+      },
+      {
+        "level": 13,
+        "cost": {
+          "food": 8638,
+          "timber": 12957,
+          "stone": 8638,
+          "iron": 0
+        },
+        "buildTimeSec": 5839,
+        "outputPerHour": 0,
+        "keepLevelRequired": 13,
+        "power": 302
+      },
+      {
+        "level": 14,
+        "cost": {
+          "food": 12525,
+          "timber": 18788,
+          "stone": 12525,
+          "iron": 0
+        },
+        "buildTimeSec": 8758,
+        "outputPerHour": 0,
+        "keepLevelRequired": 14,
+        "power": 438
+      },
+      {
+        "level": 15,
+        "cost": {
+          "food": 18162,
+          "timber": 27242,
+          "stone": 18162,
+          "iron": 0
+        },
+        "buildTimeSec": 13137,
+        "outputPerHour": 0,
+        "keepLevelRequired": 15,
+        "power": 636
+      },
+      {
+        "level": 16,
+        "cost": {
+          "food": 26334,
+          "timber": 39501,
+          "stone": 26334,
+          "iron": 0
+        },
+        "buildTimeSec": 19705,
+        "outputPerHour": 0,
+        "keepLevelRequired": 16,
+        "power": 922
+      },
+      {
+        "level": 17,
+        "cost": {
+          "food": 38185,
+          "timber": 57277,
+          "stone": 38185,
+          "iron": 0
+        },
+        "buildTimeSec": 29558,
+        "outputPerHour": 0,
+        "keepLevelRequired": 17,
+        "power": 1336
+      },
+      {
+        "level": 18,
+        "cost": {
+          "food": 55368,
+          "timber": 83051,
+          "stone": 55368,
+          "iron": 0
+        },
+        "buildTimeSec": 44337,
+        "outputPerHour": 0,
+        "keepLevelRequired": 18,
+        "power": 1938
+      },
+      {
+        "level": 19,
+        "cost": {
+          "food": 80283,
+          "timber": 120425,
+          "stone": 80283,
+          "iron": 0
+        },
+        "buildTimeSec": 66505,
+        "outputPerHour": 0,
+        "keepLevelRequired": 19,
+        "power": 2810
+      },
+      {
+        "level": 20,
+        "cost": {
+          "food": 116410,
+          "timber": 174616,
+          "stone": 116410,
+          "iron": 0
+        },
+        "buildTimeSec": 99758,
+        "outputPerHour": 0,
+        "keepLevelRequired": 20,
+        "power": 4074
+      },
+      {
+        "level": 21,
+        "cost": {
+          "food": 168795,
+          "timber": 253193,
+          "stone": 168795,
+          "iron": 0
+        },
+        "buildTimeSec": 149637,
+        "outputPerHour": 0,
+        "keepLevelRequired": 21,
+        "power": 5908
+      },
+      {
+        "level": 22,
+        "cost": {
+          "food": 244753,
+          "timber": 367130,
+          "stone": 244753,
+          "iron": 0
+        },
+        "buildTimeSec": 224455,
+        "outputPerHour": 0,
+        "keepLevelRequired": 22,
+        "power": 8566
+      },
+      {
+        "level": 23,
+        "cost": {
+          "food": 354892,
+          "timber": 532338,
+          "stone": 354892,
+          "iron": 0
+        },
+        "buildTimeSec": 336682,
+        "outputPerHour": 0,
+        "keepLevelRequired": 23,
+        "power": 12421
+      },
+      {
+        "level": 24,
+        "cost": {
+          "food": 514593,
+          "timber": 771890,
+          "stone": 514593,
+          "iron": 0
+        },
+        "buildTimeSec": 505023,
+        "outputPerHour": 0,
+        "keepLevelRequired": 24,
+        "power": 18011
+      },
+      {
+        "level": 25,
+        "cost": {
+          "food": 746160,
+          "timber": 1119240,
+          "stone": 746160,
+          "iron": 0
+        },
+        "buildTimeSec": 757535,
+        "outputPerHour": 0,
+        "keepLevelRequired": 25,
+        "power": 26116
+      },
+      {
+        "level": 26,
+        "cost": {
+          "food": 1081932,
+          "timber": 1622898,
+          "stone": 1081932,
+          "iron": 0
+        },
+        "buildTimeSec": 1136303,
+        "outputPerHour": 0,
+        "keepLevelRequired": 26,
+        "power": 37868
+      },
+      {
+        "level": 27,
+        "cost": {
+          "food": 1568802,
+          "timber": 2353203,
+          "stone": 1568802,
+          "iron": 0
+        },
+        "buildTimeSec": 1704454,
+        "outputPerHour": 0,
+        "keepLevelRequired": 27,
+        "power": 54908
+      },
+      {
+        "level": 28,
+        "cost": {
+          "food": 2274763,
+          "timber": 3412144,
+          "stone": 2274763,
+          "iron": 0
+        },
+        "buildTimeSec": 2556681,
+        "outputPerHour": 0,
+        "keepLevelRequired": 28,
+        "power": 79617
+      },
+      {
+        "level": 29,
+        "cost": {
+          "food": 3298406,
+          "timber": 4947608,
+          "stone": 3298406,
+          "iron": 0
+        },
+        "buildTimeSec": 3835021,
+        "outputPerHour": 0,
+        "keepLevelRequired": 29,
+        "power": 115444
+      },
+      {
+        "level": 30,
+        "cost": {
+          "food": 4782688,
+          "timber": 7174032,
+          "stone": 4782688,
+          "iron": 0
+        },
+        "buildTimeSec": 5752532,
+        "outputPerHour": 0,
+        "keepLevelRequired": 30,
+        "power": 167394
+      }
+    ]
+  },
+  {
+    "id": "barracks",
+    "name": "Barracks",
+    "category": "military",
+    "maxLevel": 30,
+    "unlockKeepLevel": 1,
+    "produces": null,
+    "levels": [
+      {
+        "level": 1,
+        "cost": {
+          "food": 150,
+          "timber": 200,
+          "stone": 100,
+          "iron": 0
+        },
+        "buildTimeSec": 60,
+        "outputPerHour": 0,
+        "keepLevelRequired": 1,
+        "power": 5
+      },
+      {
+        "level": 2,
+        "cost": {
+          "food": 218,
+          "timber": 290,
+          "stone": 145,
+          "iron": 0
+        },
+        "buildTimeSec": 90,
+        "outputPerHour": 0,
+        "keepLevelRequired": 2,
+        "power": 7
+      },
+      {
+        "level": 3,
+        "cost": {
+          "food": 315,
+          "timber": 421,
+          "stone": 210,
+          "iron": 0
+        },
+        "buildTimeSec": 135,
+        "outputPerHour": 0,
+        "keepLevelRequired": 3,
+        "power": 9
+      },
+      {
+        "level": 4,
+        "cost": {
+          "food": 457,
+          "timber": 610,
+          "stone": 305,
+          "iron": 0
+        },
+        "buildTimeSec": 203,
+        "outputPerHour": 0,
+        "keepLevelRequired": 4,
+        "power": 14
+      },
+      {
+        "level": 5,
+        "cost": {
+          "food": 663,
+          "timber": 884,
+          "stone": 442,
+          "iron": 0
+        },
+        "buildTimeSec": 304,
+        "outputPerHour": 0,
+        "keepLevelRequired": 5,
+        "power": 20
+      },
+      {
+        "level": 6,
+        "cost": {
+          "food": 961,
+          "timber": 1282,
+          "stone": 641,
+          "iron": 0
+        },
+        "buildTimeSec": 456,
+        "outputPerHour": 0,
+        "keepLevelRequired": 6,
+        "power": 29
+      },
+      {
+        "level": 7,
+        "cost": {
+          "food": 1394,
+          "timber": 1859,
+          "stone": 929,
+          "iron": 0
+        },
+        "buildTimeSec": 683,
+        "outputPerHour": 0,
+        "keepLevelRequired": 7,
+        "power": 42
+      },
+      {
+        "level": 8,
+        "cost": {
+          "food": 2021,
+          "timber": 2695,
+          "stone": 1348,
+          "iron": 0
+        },
+        "buildTimeSec": 1025,
+        "outputPerHour": 0,
+        "keepLevelRequired": 8,
+        "power": 61
+      },
+      {
+        "level": 9,
+        "cost": {
+          "food": 2931,
+          "timber": 3908,
+          "stone": 1954,
+          "iron": 0
+        },
+        "buildTimeSec": 1538,
+        "outputPerHour": 0,
+        "keepLevelRequired": 9,
+        "power": 88
+      },
+      {
+        "level": 10,
+        "cost": {
+          "food": 4250,
+          "timber": 5667,
+          "stone": 2833,
+          "iron": 0
+        },
+        "buildTimeSec": 2307,
+        "outputPerHour": 0,
+        "keepLevelRequired": 10,
+        "power": 128
+      },
+      {
+        "level": 11,
+        "cost": {
+          "food": 6163,
+          "timber": 8217,
+          "stone": 4108,
+          "iron": 0
+        },
+        "buildTimeSec": 3460,
+        "outputPerHour": 0,
+        "keepLevelRequired": 11,
+        "power": 185
+      },
+      {
+        "level": 12,
+        "cost": {
+          "food": 8936,
+          "timber": 11915,
+          "stone": 5957,
+          "iron": 0
+        },
+        "buildTimeSec": 5190,
+        "outputPerHour": 0,
+        "keepLevelRequired": 12,
+        "power": 268
+      },
+      {
+        "level": 13,
+        "cost": {
+          "food": 12957,
+          "timber": 17276,
+          "stone": 8638,
+          "iron": 0
+        },
+        "buildTimeSec": 7785,
+        "outputPerHour": 0,
+        "keepLevelRequired": 13,
+        "power": 389
+      },
+      {
+        "level": 14,
+        "cost": {
+          "food": 18788,
+          "timber": 25050,
+          "stone": 12525,
+          "iron": 0
+        },
+        "buildTimeSec": 11677,
+        "outputPerHour": 0,
+        "keepLevelRequired": 14,
+        "power": 564
+      },
+      {
+        "level": 15,
+        "cost": {
+          "food": 27242,
+          "timber": 36323,
+          "stone": 18162,
+          "iron": 0
+        },
+        "buildTimeSec": 17516,
+        "outputPerHour": 0,
+        "keepLevelRequired": 15,
+        "power": 817
+      },
+      {
+        "level": 16,
+        "cost": {
+          "food": 39501,
+          "timber": 52668,
+          "stone": 26334,
+          "iron": 0
+        },
+        "buildTimeSec": 26274,
+        "outputPerHour": 0,
+        "keepLevelRequired": 16,
+        "power": 1185
+      },
+      {
+        "level": 17,
+        "cost": {
+          "food": 57277,
+          "timber": 76369,
+          "stone": 38185,
+          "iron": 0
+        },
+        "buildTimeSec": 39410,
+        "outputPerHour": 0,
+        "keepLevelRequired": 17,
+        "power": 1718
+      },
+      {
+        "level": 18,
+        "cost": {
+          "food": 83051,
+          "timber": 110735,
+          "stone": 55368,
+          "iron": 0
+        },
+        "buildTimeSec": 59116,
+        "outputPerHour": 0,
+        "keepLevelRequired": 18,
+        "power": 2492
+      },
+      {
+        "level": 19,
+        "cost": {
+          "food": 120425,
+          "timber": 160566,
+          "stone": 80283,
+          "iron": 0
+        },
+        "buildTimeSec": 88674,
+        "outputPerHour": 0,
+        "keepLevelRequired": 19,
+        "power": 3613
+      },
+      {
+        "level": 20,
+        "cost": {
+          "food": 174616,
+          "timber": 232821,
+          "stone": 116410,
+          "iron": 0
+        },
+        "buildTimeSec": 133010,
+        "outputPerHour": 0,
+        "keepLevelRequired": 20,
+        "power": 5238
+      },
+      {
+        "level": 21,
+        "cost": {
+          "food": 253193,
+          "timber": 337590,
+          "stone": 168795,
+          "iron": 0
+        },
+        "buildTimeSec": 199515,
+        "outputPerHour": 0,
+        "keepLevelRequired": 21,
+        "power": 7596
+      },
+      {
+        "level": 22,
+        "cost": {
+          "food": 367130,
+          "timber": 489506,
+          "stone": 244753,
+          "iron": 0
+        },
+        "buildTimeSec": 299273,
+        "outputPerHour": 0,
+        "keepLevelRequired": 22,
+        "power": 11014
+      },
+      {
+        "level": 23,
+        "cost": {
+          "food": 532338,
+          "timber": 709784,
+          "stone": 354892,
+          "iron": 0
+        },
+        "buildTimeSec": 448910,
+        "outputPerHour": 0,
+        "keepLevelRequired": 23,
+        "power": 15970
+      },
+      {
+        "level": 24,
+        "cost": {
+          "food": 771890,
+          "timber": 1029186,
+          "stone": 514593,
+          "iron": 0
+        },
+        "buildTimeSec": 673364,
+        "outputPerHour": 0,
+        "keepLevelRequired": 24,
+        "power": 23157
+      },
+      {
+        "level": 25,
+        "cost": {
+          "food": 1119240,
+          "timber": 1492320,
+          "stone": 746160,
+          "iron": 0
+        },
+        "buildTimeSec": 1010047,
+        "outputPerHour": 0,
+        "keepLevelRequired": 25,
+        "power": 33577
+      },
+      {
+        "level": 26,
+        "cost": {
+          "food": 1622898,
+          "timber": 2163864,
+          "stone": 1081932,
+          "iron": 0
+        },
+        "buildTimeSec": 1515070,
+        "outputPerHour": 0,
+        "keepLevelRequired": 26,
+        "power": 48687
+      },
+      {
+        "level": 27,
+        "cost": {
+          "food": 2353203,
+          "timber": 3137603,
+          "stone": 1568802,
+          "iron": 0
+        },
+        "buildTimeSec": 2272605,
+        "outputPerHour": 0,
+        "keepLevelRequired": 27,
+        "power": 70596
+      },
+      {
+        "level": 28,
+        "cost": {
+          "food": 3412144,
+          "timber": 4549525,
+          "stone": 2274763,
+          "iron": 0
+        },
+        "buildTimeSec": 3408908,
+        "outputPerHour": 0,
+        "keepLevelRequired": 28,
+        "power": 102364
+      },
+      {
+        "level": 29,
+        "cost": {
+          "food": 4947608,
+          "timber": 6596811,
+          "stone": 3298406,
+          "iron": 0
+        },
+        "buildTimeSec": 5113362,
+        "outputPerHour": 0,
+        "keepLevelRequired": 29,
+        "power": 148428
+      },
+      {
+        "level": 30,
+        "cost": {
+          "food": 7174032,
+          "timber": 9565376,
+          "stone": 4782688,
+          "iron": 0
+        },
+        "buildTimeSec": 7670042,
+        "outputPerHour": 0,
+        "keepLevelRequired": 30,
+        "power": 215221
+      }
+    ]
+  },
+  {
+    "id": "archery_range",
+    "name": "Archery Range",
+    "category": "military",
+    "maxLevel": 30,
+    "unlockKeepLevel": 4,
+    "produces": null,
+    "levels": [
+      {
+        "level": 1,
+        "cost": {
+          "food": 150,
+          "timber": 250,
+          "stone": 50,
+          "iron": 20
+        },
+        "buildTimeSec": 60,
+        "outputPerHour": 0,
+        "keepLevelRequired": 4,
+        "power": 5
+      },
+      {
+        "level": 2,
+        "cost": {
+          "food": 218,
+          "timber": 363,
+          "stone": 73,
+          "iron": 29
+        },
+        "buildTimeSec": 90,
+        "outputPerHour": 0,
+        "keepLevelRequired": 4,
+        "power": 7
+      },
+      {
+        "level": 3,
+        "cost": {
+          "food": 315,
+          "timber": 526,
+          "stone": 105,
+          "iron": 42
+        },
+        "buildTimeSec": 135,
+        "outputPerHour": 0,
+        "keepLevelRequired": 4,
+        "power": 10
+      },
+      {
+        "level": 4,
+        "cost": {
+          "food": 457,
+          "timber": 762,
+          "stone": 152,
+          "iron": 61
+        },
+        "buildTimeSec": 203,
+        "outputPerHour": 0,
+        "keepLevelRequired": 4,
+        "power": 14
+      },
+      {
+        "level": 5,
+        "cost": {
+          "food": 663,
+          "timber": 1105,
+          "stone": 221,
+          "iron": 88
+        },
+        "buildTimeSec": 304,
+        "outputPerHour": 0,
+        "keepLevelRequired": 5,
+        "power": 21
+      },
+      {
+        "level": 6,
+        "cost": {
+          "food": 961,
+          "timber": 1602,
+          "stone": 320,
+          "iron": 128
+        },
+        "buildTimeSec": 456,
+        "outputPerHour": 0,
+        "keepLevelRequired": 6,
+        "power": 30
+      },
+      {
+        "level": 7,
+        "cost": {
+          "food": 1394,
+          "timber": 2324,
+          "stone": 465,
+          "iron": 186
+        },
+        "buildTimeSec": 683,
+        "outputPerHour": 0,
+        "keepLevelRequired": 7,
+        "power": 44
+      },
+      {
+        "level": 8,
+        "cost": {
+          "food": 2021,
+          "timber": 3369,
+          "stone": 674,
+          "iron": 270
+        },
+        "buildTimeSec": 1025,
+        "outputPerHour": 0,
+        "keepLevelRequired": 8,
+        "power": 63
+      },
+      {
+        "level": 9,
+        "cost": {
+          "food": 2931,
+          "timber": 4885,
+          "stone": 977,
+          "iron": 391
+        },
+        "buildTimeSec": 1538,
+        "outputPerHour": 0,
+        "keepLevelRequired": 9,
+        "power": 92
+      },
+      {
+        "level": 10,
+        "cost": {
+          "food": 4250,
+          "timber": 7084,
+          "stone": 1417,
+          "iron": 567
+        },
+        "buildTimeSec": 2307,
+        "outputPerHour": 0,
+        "keepLevelRequired": 10,
+        "power": 133
+      },
+      {
+        "level": 11,
+        "cost": {
+          "food": 6163,
+          "timber": 10271,
+          "stone": 2054,
+          "iron": 822
+        },
+        "buildTimeSec": 3460,
+        "outputPerHour": 0,
+        "keepLevelRequired": 11,
+        "power": 193
+      },
+      {
+        "level": 12,
+        "cost": {
+          "food": 8936,
+          "timber": 14893,
+          "stone": 2979,
+          "iron": 1191
+        },
+        "buildTimeSec": 5190,
+        "outputPerHour": 0,
+        "keepLevelRequired": 12,
+        "power": 280
+      },
+      {
+        "level": 13,
+        "cost": {
+          "food": 12957,
+          "timber": 21595,
+          "stone": 4319,
+          "iron": 1728
+        },
+        "buildTimeSec": 7785,
+        "outputPerHour": 0,
+        "keepLevelRequired": 13,
+        "power": 406
+      },
+      {
+        "level": 14,
+        "cost": {
+          "food": 18788,
+          "timber": 31313,
+          "stone": 6263,
+          "iron": 2505
+        },
+        "buildTimeSec": 11677,
+        "outputPerHour": 0,
+        "keepLevelRequired": 14,
+        "power": 589
+      },
+      {
+        "level": 15,
+        "cost": {
+          "food": 27242,
+          "timber": 45404,
+          "stone": 9081,
+          "iron": 3632
+        },
+        "buildTimeSec": 17516,
+        "outputPerHour": 0,
+        "keepLevelRequired": 15,
+        "power": 854
+      },
+      {
+        "level": 16,
+        "cost": {
+          "food": 39501,
+          "timber": 65835,
+          "stone": 13167,
+          "iron": 5267
+        },
+        "buildTimeSec": 26274,
+        "outputPerHour": 0,
+        "keepLevelRequired": 16,
+        "power": 1238
+      },
+      {
+        "level": 17,
+        "cost": {
+          "food": 57277,
+          "timber": 95461,
+          "stone": 19092,
+          "iron": 7637
+        },
+        "buildTimeSec": 39410,
+        "outputPerHour": 0,
+        "keepLevelRequired": 17,
+        "power": 1795
+      },
+      {
+        "level": 18,
+        "cost": {
+          "food": 83051,
+          "timber": 138419,
+          "stone": 27684,
+          "iron": 11074
+        },
+        "buildTimeSec": 59116,
+        "outputPerHour": 0,
+        "keepLevelRequired": 18,
+        "power": 2602
+      },
+      {
+        "level": 19,
+        "cost": {
+          "food": 120425,
+          "timber": 200708,
+          "stone": 40142,
+          "iron": 16057
+        },
+        "buildTimeSec": 88674,
+        "outputPerHour": 0,
+        "keepLevelRequired": 19,
+        "power": 3773
+      },
+      {
+        "level": 20,
+        "cost": {
+          "food": 174616,
+          "timber": 291026,
+          "stone": 58205,
+          "iron": 23282
+        },
+        "buildTimeSec": 133010,
+        "outputPerHour": 0,
+        "keepLevelRequired": 20,
+        "power": 5471
+      },
+      {
+        "level": 21,
+        "cost": {
+          "food": 253193,
+          "timber": 421988,
+          "stone": 84398,
+          "iron": 33759
+        },
+        "buildTimeSec": 199515,
+        "outputPerHour": 0,
+        "keepLevelRequired": 21,
+        "power": 7933
+      },
+      {
+        "level": 22,
+        "cost": {
+          "food": 367130,
+          "timber": 611883,
+          "stone": 122377,
+          "iron": 48951
+        },
+        "buildTimeSec": 299273,
+        "outputPerHour": 0,
+        "keepLevelRequired": 22,
+        "power": 11503
+      },
+      {
+        "level": 23,
+        "cost": {
+          "food": 532338,
+          "timber": 887230,
+          "stone": 177446,
+          "iron": 70978
+        },
+        "buildTimeSec": 448910,
+        "outputPerHour": 0,
+        "keepLevelRequired": 23,
+        "power": 16680
+      },
+      {
+        "level": 24,
+        "cost": {
+          "food": 771890,
+          "timber": 1286483,
+          "stone": 257297,
+          "iron": 102919
+        },
+        "buildTimeSec": 673364,
+        "outputPerHour": 0,
+        "keepLevelRequired": 24,
+        "power": 24186
+      },
+      {
+        "level": 25,
+        "cost": {
+          "food": 1119240,
+          "timber": 1865400,
+          "stone": 373080,
+          "iron": 149232
+        },
+        "buildTimeSec": 1010047,
+        "outputPerHour": 0,
+        "keepLevelRequired": 25,
+        "power": 35070
+      },
+      {
+        "level": 26,
+        "cost": {
+          "food": 1622898,
+          "timber": 2704831,
+          "stone": 540966,
+          "iron": 216386
+        },
+        "buildTimeSec": 1515070,
+        "outputPerHour": 0,
+        "keepLevelRequired": 26,
+        "power": 50851
+      },
+      {
+        "level": 27,
+        "cost": {
+          "food": 2353203,
+          "timber": 3922004,
+          "stone": 784401,
+          "iron": 313760
+        },
+        "buildTimeSec": 2272605,
+        "outputPerHour": 0,
+        "keepLevelRequired": 27,
+        "power": 73734
+      },
+      {
+        "level": 28,
+        "cost": {
+          "food": 3412144,
+          "timber": 5686906,
+          "stone": 1137381,
+          "iron": 454953
+        },
+        "buildTimeSec": 3408908,
+        "outputPerHour": 0,
+        "keepLevelRequired": 28,
+        "power": 106914
+      },
+      {
+        "level": 29,
+        "cost": {
+          "food": 4947608,
+          "timber": 8246014,
+          "stone": 1649203,
+          "iron": 659681
+        },
+        "buildTimeSec": 5113362,
+        "outputPerHour": 0,
+        "keepLevelRequired": 29,
+        "power": 155025
+      },
+      {
+        "level": 30,
+        "cost": {
+          "food": 7174032,
+          "timber": 11956720,
+          "stone": 2391344,
+          "iron": 956538
+        },
+        "buildTimeSec": 7670042,
+        "outputPerHour": 0,
+        "keepLevelRequired": 30,
+        "power": 224786
+      }
+    ]
+  },
+  {
+    "id": "stables",
+    "name": "Stables",
+    "category": "military",
+    "maxLevel": 30,
+    "unlockKeepLevel": 8,
+    "produces": null,
+    "levels": [
+      {
+        "level": 1,
+        "cost": {
+          "food": 250,
+          "timber": 200,
+          "stone": 100,
+          "iron": 80
+        },
+        "buildTimeSec": 90,
+        "outputPerHour": 0,
+        "keepLevelRequired": 8,
+        "power": 6
+      },
+      {
+        "level": 2,
+        "cost": {
+          "food": 363,
+          "timber": 290,
+          "stone": 145,
+          "iron": 116
+        },
+        "buildTimeSec": 135,
+        "outputPerHour": 0,
+        "keepLevelRequired": 8,
+        "power": 9
+      },
+      {
+        "level": 3,
+        "cost": {
+          "food": 526,
+          "timber": 421,
+          "stone": 210,
+          "iron": 168
+        },
+        "buildTimeSec": 203,
+        "outputPerHour": 0,
+        "keepLevelRequired": 8,
+        "power": 13
+      },
+      {
+        "level": 4,
+        "cost": {
+          "food": 762,
+          "timber": 610,
+          "stone": 305,
+          "iron": 244
+        },
+        "buildTimeSec": 304,
+        "outputPerHour": 0,
+        "keepLevelRequired": 8,
+        "power": 19
+      },
+      {
+        "level": 5,
+        "cost": {
+          "food": 1105,
+          "timber": 884,
+          "stone": 442,
+          "iron": 354
+        },
+        "buildTimeSec": 456,
+        "outputPerHour": 0,
+        "keepLevelRequired": 8,
+        "power": 28
+      },
+      {
+        "level": 6,
+        "cost": {
+          "food": 1602,
+          "timber": 1282,
+          "stone": 641,
+          "iron": 513
+        },
+        "buildTimeSec": 683,
+        "outputPerHour": 0,
+        "keepLevelRequired": 8,
+        "power": 40
+      },
+      {
+        "level": 7,
+        "cost": {
+          "food": 2324,
+          "timber": 1859,
+          "stone": 929,
+          "iron": 744
+        },
+        "buildTimeSec": 1025,
+        "outputPerHour": 0,
+        "keepLevelRequired": 8,
+        "power": 59
+      },
+      {
+        "level": 8,
+        "cost": {
+          "food": 3369,
+          "timber": 2695,
+          "stone": 1348,
+          "iron": 1078
+        },
+        "buildTimeSec": 1538,
+        "outputPerHour": 0,
+        "keepLevelRequired": 8,
+        "power": 85
+      },
+      {
+        "level": 9,
+        "cost": {
+          "food": 4885,
+          "timber": 3908,
+          "stone": 1954,
+          "iron": 1563
+        },
+        "buildTimeSec": 2307,
+        "outputPerHour": 0,
+        "keepLevelRequired": 9,
+        "power": 123
+      },
+      {
+        "level": 10,
+        "cost": {
+          "food": 7084,
+          "timber": 5667,
+          "stone": 2833,
+          "iron": 2267
+        },
+        "buildTimeSec": 3460,
+        "outputPerHour": 0,
+        "keepLevelRequired": 10,
+        "power": 179
+      },
+      {
+        "level": 11,
+        "cost": {
+          "food": 10271,
+          "timber": 8217,
+          "stone": 4108,
+          "iron": 3287
+        },
+        "buildTimeSec": 5190,
+        "outputPerHour": 0,
+        "keepLevelRequired": 11,
+        "power": 259
+      },
+      {
+        "level": 12,
+        "cost": {
+          "food": 14893,
+          "timber": 11915,
+          "stone": 5957,
+          "iron": 4766
+        },
+        "buildTimeSec": 7785,
+        "outputPerHour": 0,
+        "keepLevelRequired": 12,
+        "power": 375
+      },
+      {
+        "level": 13,
+        "cost": {
+          "food": 21595,
+          "timber": 17276,
+          "stone": 8638,
+          "iron": 6910
+        },
+        "buildTimeSec": 11677,
+        "outputPerHour": 0,
+        "keepLevelRequired": 13,
+        "power": 544
+      },
+      {
+        "level": 14,
+        "cost": {
+          "food": 31313,
+          "timber": 25050,
+          "stone": 12525,
+          "iron": 10020
+        },
+        "buildTimeSec": 17516,
+        "outputPerHour": 0,
+        "keepLevelRequired": 14,
+        "power": 789
+      },
+      {
+        "level": 15,
+        "cost": {
+          "food": 45404,
+          "timber": 36323,
+          "stone": 18162,
+          "iron": 14529
+        },
+        "buildTimeSec": 26274,
+        "outputPerHour": 0,
+        "keepLevelRequired": 15,
+        "power": 1144
+      },
+      {
+        "level": 16,
+        "cost": {
+          "food": 65835,
+          "timber": 52668,
+          "stone": 26334,
+          "iron": 21067
+        },
+        "buildTimeSec": 39410,
+        "outputPerHour": 0,
+        "keepLevelRequired": 16,
+        "power": 1659
+      },
+      {
+        "level": 17,
+        "cost": {
+          "food": 95461,
+          "timber": 76369,
+          "stone": 38185,
+          "iron": 30548
+        },
+        "buildTimeSec": 59116,
+        "outputPerHour": 0,
+        "keepLevelRequired": 17,
+        "power": 2406
+      },
+      {
+        "level": 18,
+        "cost": {
+          "food": 138419,
+          "timber": 110735,
+          "stone": 55368,
+          "iron": 44294
+        },
+        "buildTimeSec": 88674,
+        "outputPerHour": 0,
+        "keepLevelRequired": 18,
+        "power": 3488
+      },
+      {
+        "level": 19,
+        "cost": {
+          "food": 200708,
+          "timber": 160566,
+          "stone": 80283,
+          "iron": 64226
+        },
+        "buildTimeSec": 133010,
+        "outputPerHour": 0,
+        "keepLevelRequired": 19,
+        "power": 5058
+      },
+      {
+        "level": 20,
+        "cost": {
+          "food": 291026,
+          "timber": 232821,
+          "stone": 116410,
+          "iron": 93128
+        },
+        "buildTimeSec": 199515,
+        "outputPerHour": 0,
+        "keepLevelRequired": 20,
+        "power": 7334
+      },
+      {
+        "level": 21,
+        "cost": {
+          "food": 421988,
+          "timber": 337590,
+          "stone": 168795,
+          "iron": 135036
+        },
+        "buildTimeSec": 299273,
+        "outputPerHour": 0,
+        "keepLevelRequired": 21,
+        "power": 10634
+      },
+      {
+        "level": 22,
+        "cost": {
+          "food": 611883,
+          "timber": 489506,
+          "stone": 244753,
+          "iron": 195802
+        },
+        "buildTimeSec": 448910,
+        "outputPerHour": 0,
+        "keepLevelRequired": 22,
+        "power": 15419
+      },
+      {
+        "level": 23,
+        "cost": {
+          "food": 887230,
+          "timber": 709784,
+          "stone": 354892,
+          "iron": 283913
+        },
+        "buildTimeSec": 673364,
+        "outputPerHour": 0,
+        "keepLevelRequired": 23,
+        "power": 22358
+      },
+      {
+        "level": 24,
+        "cost": {
+          "food": 1286483,
+          "timber": 1029186,
+          "stone": 514593,
+          "iron": 411675
+        },
+        "buildTimeSec": 1010047,
+        "outputPerHour": 0,
+        "keepLevelRequired": 24,
+        "power": 32419
+      },
+      {
+        "level": 25,
+        "cost": {
+          "food": 1865400,
+          "timber": 1492320,
+          "stone": 746160,
+          "iron": 596928
+        },
+        "buildTimeSec": 1515070,
+        "outputPerHour": 0,
+        "keepLevelRequired": 25,
+        "power": 47008
+      },
+      {
+        "level": 26,
+        "cost": {
+          "food": 2704831,
+          "timber": 2163864,
+          "stone": 1081932,
+          "iron": 865546
+        },
+        "buildTimeSec": 2272605,
+        "outputPerHour": 0,
+        "keepLevelRequired": 26,
+        "power": 68162
+      },
+      {
+        "level": 27,
+        "cost": {
+          "food": 3922004,
+          "timber": 3137603,
+          "stone": 1568802,
+          "iron": 1255041
+        },
+        "buildTimeSec": 3408908,
+        "outputPerHour": 0,
+        "keepLevelRequired": 27,
+        "power": 98835
+      },
+      {
+        "level": 28,
+        "cost": {
+          "food": 5686906,
+          "timber": 4549525,
+          "stone": 2274763,
+          "iron": 1819810
+        },
+        "buildTimeSec": 5113362,
+        "outputPerHour": 0,
+        "keepLevelRequired": 28,
+        "power": 143310
+      },
+      {
+        "level": 29,
+        "cost": {
+          "food": 8246014,
+          "timber": 6596811,
+          "stone": 3298406,
+          "iron": 2638725
+        },
+        "buildTimeSec": 7670042,
+        "outputPerHour": 0,
+        "keepLevelRequired": 29,
+        "power": 207800
+      },
+      {
+        "level": 30,
+        "cost": {
+          "food": 11956720,
+          "timber": 9565376,
+          "stone": 4782688,
+          "iron": 3826151
+        },
+        "buildTimeSec": 11505064,
+        "outputPerHour": 0,
+        "keepLevelRequired": 30,
+        "power": 301309
+      }
+    ]
+  },
+  {
+    "id": "mage_tower",
+    "name": "Mage Tower",
+    "category": "military",
+    "maxLevel": 30,
+    "unlockKeepLevel": 12,
+    "produces": null,
+    "levels": [
+      {
+        "level": 1,
+        "cost": {
+          "food": 200,
+          "timber": 150,
+          "stone": 250,
+          "iron": 150
+        },
+        "buildTimeSec": 120,
+        "outputPerHour": 0,
+        "keepLevelRequired": 12,
+        "power": 8
+      },
+      {
+        "level": 2,
+        "cost": {
+          "food": 290,
+          "timber": 218,
+          "stone": 363,
+          "iron": 218
+        },
+        "buildTimeSec": 180,
+        "outputPerHour": 0,
+        "keepLevelRequired": 12,
+        "power": 11
+      },
+      {
+        "level": 3,
+        "cost": {
+          "food": 421,
+          "timber": 315,
+          "stone": 526,
+          "iron": 315
+        },
+        "buildTimeSec": 270,
+        "outputPerHour": 0,
+        "keepLevelRequired": 12,
+        "power": 16
+      },
+      {
+        "level": 4,
+        "cost": {
+          "food": 610,
+          "timber": 457,
+          "stone": 762,
+          "iron": 457
+        },
+        "buildTimeSec": 405,
+        "outputPerHour": 0,
+        "keepLevelRequired": 12,
+        "power": 23
+      },
+      {
+        "level": 5,
+        "cost": {
+          "food": 884,
+          "timber": 663,
+          "stone": 1105,
+          "iron": 663
+        },
+        "buildTimeSec": 608,
+        "outputPerHour": 0,
+        "keepLevelRequired": 12,
+        "power": 33
+      },
+      {
+        "level": 6,
+        "cost": {
+          "food": 1282,
+          "timber": 961,
+          "stone": 1602,
+          "iron": 961
+        },
+        "buildTimeSec": 911,
+        "outputPerHour": 0,
+        "keepLevelRequired": 12,
+        "power": 48
+      },
+      {
+        "level": 7,
+        "cost": {
+          "food": 1859,
+          "timber": 1394,
+          "stone": 2324,
+          "iron": 1394
+        },
+        "buildTimeSec": 1367,
+        "outputPerHour": 0,
+        "keepLevelRequired": 12,
+        "power": 70
+      },
+      {
+        "level": 8,
+        "cost": {
+          "food": 2695,
+          "timber": 2021,
+          "stone": 3369,
+          "iron": 2021
+        },
+        "buildTimeSec": 2050,
+        "outputPerHour": 0,
+        "keepLevelRequired": 12,
+        "power": 101
+      },
+      {
+        "level": 9,
+        "cost": {
+          "food": 3908,
+          "timber": 2931,
+          "stone": 4885,
+          "iron": 2931
+        },
+        "buildTimeSec": 3075,
+        "outputPerHour": 0,
+        "keepLevelRequired": 12,
+        "power": 147
+      },
+      {
+        "level": 10,
+        "cost": {
+          "food": 5667,
+          "timber": 4250,
+          "stone": 7084,
+          "iron": 4250
+        },
+        "buildTimeSec": 4613,
+        "outputPerHour": 0,
+        "keepLevelRequired": 12,
+        "power": 213
+      },
+      {
+        "level": 11,
+        "cost": {
+          "food": 8217,
+          "timber": 6163,
+          "stone": 10271,
+          "iron": 6163
+        },
+        "buildTimeSec": 6920,
+        "outputPerHour": 0,
+        "keepLevelRequired": 12,
+        "power": 308
+      },
+      {
+        "level": 12,
+        "cost": {
+          "food": 11915,
+          "timber": 8936,
+          "stone": 14893,
+          "iron": 8936
+        },
+        "buildTimeSec": 10380,
+        "outputPerHour": 0,
+        "keepLevelRequired": 12,
+        "power": 447
+      },
+      {
+        "level": 13,
+        "cost": {
+          "food": 17276,
+          "timber": 12957,
+          "stone": 21595,
+          "iron": 12957
+        },
+        "buildTimeSec": 15570,
+        "outputPerHour": 0,
+        "keepLevelRequired": 13,
+        "power": 648
+      },
+      {
+        "level": 14,
+        "cost": {
+          "food": 25050,
+          "timber": 18788,
+          "stone": 31313,
+          "iron": 18788
+        },
+        "buildTimeSec": 23354,
+        "outputPerHour": 0,
+        "keepLevelRequired": 14,
+        "power": 939
+      },
+      {
+        "level": 15,
+        "cost": {
+          "food": 36323,
+          "timber": 27242,
+          "stone": 45404,
+          "iron": 27242
+        },
+        "buildTimeSec": 35032,
+        "outputPerHour": 0,
+        "keepLevelRequired": 15,
+        "power": 1362
+      },
+      {
+        "level": 16,
+        "cost": {
+          "food": 52668,
+          "timber": 39501,
+          "stone": 65835,
+          "iron": 39501
+        },
+        "buildTimeSec": 52547,
+        "outputPerHour": 0,
+        "keepLevelRequired": 16,
+        "power": 1975
+      },
+      {
+        "level": 17,
+        "cost": {
+          "food": 76369,
+          "timber": 57277,
+          "stone": 95461,
+          "iron": 57277
+        },
+        "buildTimeSec": 78821,
+        "outputPerHour": 0,
+        "keepLevelRequired": 17,
+        "power": 2864
+      },
+      {
+        "level": 18,
+        "cost": {
+          "food": 110735,
+          "timber": 83051,
+          "stone": 138419,
+          "iron": 83051
+        },
+        "buildTimeSec": 118231,
+        "outputPerHour": 0,
+        "keepLevelRequired": 18,
+        "power": 4153
+      },
+      {
+        "level": 19,
+        "cost": {
+          "food": 160566,
+          "timber": 120425,
+          "stone": 200708,
+          "iron": 120425
+        },
+        "buildTimeSec": 177347,
+        "outputPerHour": 0,
+        "keepLevelRequired": 19,
+        "power": 6021
+      },
+      {
+        "level": 20,
+        "cost": {
+          "food": 232821,
+          "timber": 174616,
+          "stone": 291026,
+          "iron": 174616
+        },
+        "buildTimeSec": 266021,
+        "outputPerHour": 0,
+        "keepLevelRequired": 20,
+        "power": 8731
+      },
+      {
+        "level": 21,
+        "cost": {
+          "food": 337590,
+          "timber": 253193,
+          "stone": 421988,
+          "iron": 253193
+        },
+        "buildTimeSec": 399031,
+        "outputPerHour": 0,
+        "keepLevelRequired": 21,
+        "power": 12660
+      },
+      {
+        "level": 22,
+        "cost": {
+          "food": 489506,
+          "timber": 367130,
+          "stone": 611883,
+          "iron": 367130
+        },
+        "buildTimeSec": 598546,
+        "outputPerHour": 0,
+        "keepLevelRequired": 22,
+        "power": 18356
+      },
+      {
+        "level": 23,
+        "cost": {
+          "food": 709784,
+          "timber": 532338,
+          "stone": 887230,
+          "iron": 532338
+        },
+        "buildTimeSec": 897819,
+        "outputPerHour": 0,
+        "keepLevelRequired": 23,
+        "power": 26617
+      },
+      {
+        "level": 24,
+        "cost": {
+          "food": 1029186,
+          "timber": 771890,
+          "stone": 1286483,
+          "iron": 771890
+        },
+        "buildTimeSec": 1346729,
+        "outputPerHour": 0,
+        "keepLevelRequired": 24,
+        "power": 38594
+      },
+      {
+        "level": 25,
+        "cost": {
+          "food": 1492320,
+          "timber": 1119240,
+          "stone": 1865400,
+          "iron": 1119240
+        },
+        "buildTimeSec": 2020093,
+        "outputPerHour": 0,
+        "keepLevelRequired": 25,
+        "power": 55962
+      },
+      {
+        "level": 26,
+        "cost": {
+          "food": 2163864,
+          "timber": 1622898,
+          "stone": 2704831,
+          "iron": 1622898
+        },
+        "buildTimeSec": 3030140,
+        "outputPerHour": 0,
+        "keepLevelRequired": 26,
+        "power": 81145
+      },
+      {
+        "level": 27,
+        "cost": {
+          "food": 3137603,
+          "timber": 2353203,
+          "stone": 3922004,
+          "iron": 2353203
+        },
+        "buildTimeSec": 4545210,
+        "outputPerHour": 0,
+        "keepLevelRequired": 27,
+        "power": 117660
+      },
+      {
+        "level": 28,
+        "cost": {
+          "food": 4549525,
+          "timber": 3412144,
+          "stone": 5686906,
+          "iron": 3412144
+        },
+        "buildTimeSec": 6817815,
+        "outputPerHour": 0,
+        "keepLevelRequired": 28,
+        "power": 170607
+      },
+      {
+        "level": 29,
+        "cost": {
+          "food": 6596811,
+          "timber": 4947608,
+          "stone": 8246014,
+          "iron": 4947608
+        },
+        "buildTimeSec": 10226723,
+        "outputPerHour": 0,
+        "keepLevelRequired": 29,
+        "power": 247380
+      },
+      {
+        "level": 30,
+        "cost": {
+          "food": 9565376,
+          "timber": 7174032,
+          "stone": 11956720,
+          "iron": 7174032
+        },
+        "buildTimeSec": 15340085,
+        "outputPerHour": 0,
+        "keepLevelRequired": 30,
+        "power": 358702
+      }
+    ]
+  },
+  {
+    "id": "infirmary",
+    "name": "Infirmary",
+    "category": "military",
+    "maxLevel": 30,
+    "unlockKeepLevel": 3,
+    "produces": null,
+    "levels": [
+      {
+        "level": 1,
+        "cost": {
+          "food": 150,
+          "timber": 150,
+          "stone": 100,
+          "iron": 0
+        },
+        "buildTimeSec": 60,
+        "outputPerHour": 0,
+        "keepLevelRequired": 3,
+        "power": 4
+      },
+      {
+        "level": 2,
+        "cost": {
+          "food": 218,
+          "timber": 218,
+          "stone": 145,
+          "iron": 0
+        },
+        "buildTimeSec": 90,
+        "outputPerHour": 0,
+        "keepLevelRequired": 3,
+        "power": 6
+      },
+      {
+        "level": 3,
+        "cost": {
+          "food": 315,
+          "timber": 315,
+          "stone": 210,
+          "iron": 0
+        },
+        "buildTimeSec": 135,
+        "outputPerHour": 0,
+        "keepLevelRequired": 3,
+        "power": 8
+      },
+      {
+        "level": 4,
+        "cost": {
+          "food": 457,
+          "timber": 457,
+          "stone": 305,
+          "iron": 0
+        },
+        "buildTimeSec": 203,
+        "outputPerHour": 0,
+        "keepLevelRequired": 4,
+        "power": 12
+      },
+      {
+        "level": 5,
+        "cost": {
+          "food": 663,
+          "timber": 663,
+          "stone": 442,
+          "iron": 0
+        },
+        "buildTimeSec": 304,
+        "outputPerHour": 0,
+        "keepLevelRequired": 5,
+        "power": 18
+      },
+      {
+        "level": 6,
+        "cost": {
+          "food": 961,
+          "timber": 961,
+          "stone": 641,
+          "iron": 0
+        },
+        "buildTimeSec": 456,
+        "outputPerHour": 0,
+        "keepLevelRequired": 6,
+        "power": 26
+      },
+      {
+        "level": 7,
+        "cost": {
+          "food": 1394,
+          "timber": 1394,
+          "stone": 929,
+          "iron": 0
+        },
+        "buildTimeSec": 683,
+        "outputPerHour": 0,
+        "keepLevelRequired": 7,
+        "power": 37
+      },
+      {
+        "level": 8,
+        "cost": {
+          "food": 2021,
+          "timber": 2021,
+          "stone": 1348,
+          "iron": 0
+        },
+        "buildTimeSec": 1025,
+        "outputPerHour": 0,
+        "keepLevelRequired": 8,
+        "power": 54
+      },
+      {
+        "level": 9,
+        "cost": {
+          "food": 2931,
+          "timber": 2931,
+          "stone": 1954,
+          "iron": 0
+        },
+        "buildTimeSec": 1538,
+        "outputPerHour": 0,
+        "keepLevelRequired": 9,
+        "power": 78
+      },
+      {
+        "level": 10,
+        "cost": {
+          "food": 4250,
+          "timber": 4250,
+          "stone": 2833,
+          "iron": 0
+        },
+        "buildTimeSec": 2307,
+        "outputPerHour": 0,
+        "keepLevelRequired": 10,
+        "power": 113
+      },
+      {
+        "level": 11,
+        "cost": {
+          "food": 6163,
+          "timber": 6163,
+          "stone": 4108,
+          "iron": 0
+        },
+        "buildTimeSec": 3460,
+        "outputPerHour": 0,
+        "keepLevelRequired": 11,
+        "power": 164
+      },
+      {
+        "level": 12,
+        "cost": {
+          "food": 8936,
+          "timber": 8936,
+          "stone": 5957,
+          "iron": 0
+        },
+        "buildTimeSec": 5190,
+        "outputPerHour": 0,
+        "keepLevelRequired": 12,
+        "power": 238
+      },
+      {
+        "level": 13,
+        "cost": {
+          "food": 12957,
+          "timber": 12957,
+          "stone": 8638,
+          "iron": 0
+        },
+        "buildTimeSec": 7785,
+        "outputPerHour": 0,
+        "keepLevelRequired": 13,
+        "power": 346
+      },
+      {
+        "level": 14,
+        "cost": {
+          "food": 18788,
+          "timber": 18788,
+          "stone": 12525,
+          "iron": 0
+        },
+        "buildTimeSec": 11677,
+        "outputPerHour": 0,
+        "keepLevelRequired": 14,
+        "power": 501
+      },
+      {
+        "level": 15,
+        "cost": {
+          "food": 27242,
+          "timber": 27242,
+          "stone": 18162,
+          "iron": 0
+        },
+        "buildTimeSec": 17516,
+        "outputPerHour": 0,
+        "keepLevelRequired": 15,
+        "power": 726
+      },
+      {
+        "level": 16,
+        "cost": {
+          "food": 39501,
+          "timber": 39501,
+          "stone": 26334,
+          "iron": 0
+        },
+        "buildTimeSec": 26274,
+        "outputPerHour": 0,
+        "keepLevelRequired": 16,
+        "power": 1053
+      },
+      {
+        "level": 17,
+        "cost": {
+          "food": 57277,
+          "timber": 57277,
+          "stone": 38185,
+          "iron": 0
+        },
+        "buildTimeSec": 39410,
+        "outputPerHour": 0,
+        "keepLevelRequired": 17,
+        "power": 1527
+      },
+      {
+        "level": 18,
+        "cost": {
+          "food": 83051,
+          "timber": 83051,
+          "stone": 55368,
+          "iron": 0
+        },
+        "buildTimeSec": 59116,
+        "outputPerHour": 0,
+        "keepLevelRequired": 18,
+        "power": 2215
+      },
+      {
+        "level": 19,
+        "cost": {
+          "food": 120425,
+          "timber": 120425,
+          "stone": 80283,
+          "iron": 0
+        },
+        "buildTimeSec": 88674,
+        "outputPerHour": 0,
+        "keepLevelRequired": 19,
+        "power": 3211
+      },
+      {
+        "level": 20,
+        "cost": {
+          "food": 174616,
+          "timber": 174616,
+          "stone": 116410,
+          "iron": 0
+        },
+        "buildTimeSec": 133010,
+        "outputPerHour": 0,
+        "keepLevelRequired": 20,
+        "power": 4656
+      },
+      {
+        "level": 21,
+        "cost": {
+          "food": 253193,
+          "timber": 253193,
+          "stone": 168795,
+          "iron": 0
+        },
+        "buildTimeSec": 199515,
+        "outputPerHour": 0,
+        "keepLevelRequired": 21,
+        "power": 6752
+      },
+      {
+        "level": 22,
+        "cost": {
+          "food": 367130,
+          "timber": 367130,
+          "stone": 244753,
+          "iron": 0
+        },
+        "buildTimeSec": 299273,
+        "outputPerHour": 0,
+        "keepLevelRequired": 22,
+        "power": 9790
+      },
+      {
+        "level": 23,
+        "cost": {
+          "food": 532338,
+          "timber": 532338,
+          "stone": 354892,
+          "iron": 0
+        },
+        "buildTimeSec": 448910,
+        "outputPerHour": 0,
+        "keepLevelRequired": 23,
+        "power": 14196
+      },
+      {
+        "level": 24,
+        "cost": {
+          "food": 771890,
+          "timber": 771890,
+          "stone": 514593,
+          "iron": 0
+        },
+        "buildTimeSec": 673364,
+        "outputPerHour": 0,
+        "keepLevelRequired": 24,
+        "power": 20584
+      },
+      {
+        "level": 25,
+        "cost": {
+          "food": 1119240,
+          "timber": 1119240,
+          "stone": 746160,
+          "iron": 0
+        },
+        "buildTimeSec": 1010047,
+        "outputPerHour": 0,
+        "keepLevelRequired": 25,
+        "power": 29846
+      },
+      {
+        "level": 26,
+        "cost": {
+          "food": 1622898,
+          "timber": 1622898,
+          "stone": 1081932,
+          "iron": 0
+        },
+        "buildTimeSec": 1515070,
+        "outputPerHour": 0,
+        "keepLevelRequired": 26,
+        "power": 43277
+      },
+      {
+        "level": 27,
+        "cost": {
+          "food": 2353203,
+          "timber": 2353203,
+          "stone": 1568802,
+          "iron": 0
+        },
+        "buildTimeSec": 2272605,
+        "outputPerHour": 0,
+        "keepLevelRequired": 27,
+        "power": 62752
+      },
+      {
+        "level": 28,
+        "cost": {
+          "food": 3412144,
+          "timber": 3412144,
+          "stone": 2274763,
+          "iron": 0
+        },
+        "buildTimeSec": 3408908,
+        "outputPerHour": 0,
+        "keepLevelRequired": 28,
+        "power": 90991
+      },
+      {
+        "level": 29,
+        "cost": {
+          "food": 4947608,
+          "timber": 4947608,
+          "stone": 3298406,
+          "iron": 0
+        },
+        "buildTimeSec": 5113362,
+        "outputPerHour": 0,
+        "keepLevelRequired": 29,
+        "power": 131936
+      },
+      {
+        "level": 30,
+        "cost": {
+          "food": 7174032,
+          "timber": 7174032,
+          "stone": 4782688,
+          "iron": 0
+        },
+        "buildTimeSec": 7670042,
+        "outputPerHour": 0,
+        "keepLevelRequired": 30,
+        "power": 191308
+      }
+    ]
+  },
+  {
+    "id": "academy",
+    "name": "Academy",
+    "category": "research",
+    "maxLevel": 30,
+    "unlockKeepLevel": 5,
+    "produces": null,
+    "levels": [
+      {
+        "level": 1,
+        "cost": {
+          "food": 200,
+          "timber": 250,
+          "stone": 150,
+          "iron": 50
+        },
+        "buildTimeSec": 90,
+        "outputPerHour": 0,
+        "keepLevelRequired": 5,
+        "power": 7
+      },
+      {
+        "level": 2,
+        "cost": {
+          "food": 290,
+          "timber": 363,
+          "stone": 218,
+          "iron": 73
+        },
+        "buildTimeSec": 135,
+        "outputPerHour": 0,
+        "keepLevelRequired": 5,
+        "power": 9
+      },
+      {
+        "level": 3,
+        "cost": {
+          "food": 421,
+          "timber": 526,
+          "stone": 315,
+          "iron": 105
+        },
+        "buildTimeSec": 203,
+        "outputPerHour": 0,
+        "keepLevelRequired": 5,
+        "power": 14
+      },
+      {
+        "level": 4,
+        "cost": {
+          "food": 610,
+          "timber": 762,
+          "stone": 457,
+          "iron": 152
+        },
+        "buildTimeSec": 304,
+        "outputPerHour": 0,
+        "keepLevelRequired": 5,
+        "power": 20
+      },
+      {
+        "level": 5,
+        "cost": {
+          "food": 884,
+          "timber": 1105,
+          "stone": 663,
+          "iron": 221
+        },
+        "buildTimeSec": 456,
+        "outputPerHour": 0,
+        "keepLevelRequired": 5,
+        "power": 29
+      },
+      {
+        "level": 6,
+        "cost": {
+          "food": 1282,
+          "timber": 1602,
+          "stone": 961,
+          "iron": 320
+        },
+        "buildTimeSec": 683,
+        "outputPerHour": 0,
+        "keepLevelRequired": 6,
+        "power": 42
+      },
+      {
+        "level": 7,
+        "cost": {
+          "food": 1859,
+          "timber": 2324,
+          "stone": 1394,
+          "iron": 465
+        },
+        "buildTimeSec": 1025,
+        "outputPerHour": 0,
+        "keepLevelRequired": 7,
+        "power": 60
+      },
+      {
+        "level": 8,
+        "cost": {
+          "food": 2695,
+          "timber": 3369,
+          "stone": 2021,
+          "iron": 674
+        },
+        "buildTimeSec": 1538,
+        "outputPerHour": 0,
+        "keepLevelRequired": 8,
+        "power": 88
+      },
+      {
+        "level": 9,
+        "cost": {
+          "food": 3908,
+          "timber": 4885,
+          "stone": 2931,
+          "iron": 977
+        },
+        "buildTimeSec": 2307,
+        "outputPerHour": 0,
+        "keepLevelRequired": 9,
+        "power": 127
+      },
+      {
+        "level": 10,
+        "cost": {
+          "food": 5667,
+          "timber": 7084,
+          "stone": 4250,
+          "iron": 1417
+        },
+        "buildTimeSec": 3460,
+        "outputPerHour": 0,
+        "keepLevelRequired": 10,
+        "power": 184
+      },
+      {
+        "level": 11,
+        "cost": {
+          "food": 8217,
+          "timber": 10271,
+          "stone": 6163,
+          "iron": 2054
+        },
+        "buildTimeSec": 5190,
+        "outputPerHour": 0,
+        "keepLevelRequired": 11,
+        "power": 267
+      },
+      {
+        "level": 12,
+        "cost": {
+          "food": 11915,
+          "timber": 14893,
+          "stone": 8936,
+          "iron": 2979
+        },
+        "buildTimeSec": 7785,
+        "outputPerHour": 0,
+        "keepLevelRequired": 12,
+        "power": 387
+      },
+      {
+        "level": 13,
+        "cost": {
+          "food": 17276,
+          "timber": 21595,
+          "stone": 12957,
+          "iron": 4319
+        },
+        "buildTimeSec": 11677,
+        "outputPerHour": 0,
+        "keepLevelRequired": 13,
+        "power": 561
+      },
+      {
+        "level": 14,
+        "cost": {
+          "food": 25050,
+          "timber": 31313,
+          "stone": 18788,
+          "iron": 6263
+        },
+        "buildTimeSec": 17516,
+        "outputPerHour": 0,
+        "keepLevelRequired": 14,
+        "power": 814
+      },
+      {
+        "level": 15,
+        "cost": {
+          "food": 36323,
+          "timber": 45404,
+          "stone": 27242,
+          "iron": 9081
+        },
+        "buildTimeSec": 26274,
+        "outputPerHour": 0,
+        "keepLevelRequired": 15,
+        "power": 1181
+      },
+      {
+        "level": 16,
+        "cost": {
+          "food": 52668,
+          "timber": 65835,
+          "stone": 39501,
+          "iron": 13167
+        },
+        "buildTimeSec": 39410,
+        "outputPerHour": 0,
+        "keepLevelRequired": 16,
+        "power": 1712
+      },
+      {
+        "level": 17,
+        "cost": {
+          "food": 76369,
+          "timber": 95461,
+          "stone": 57277,
+          "iron": 19092
+        },
+        "buildTimeSec": 59116,
+        "outputPerHour": 0,
+        "keepLevelRequired": 17,
+        "power": 2482
+      },
+      {
+        "level": 18,
+        "cost": {
+          "food": 110735,
+          "timber": 138419,
+          "stone": 83051,
+          "iron": 27684
+        },
+        "buildTimeSec": 88674,
+        "outputPerHour": 0,
+        "keepLevelRequired": 18,
+        "power": 3599
+      },
+      {
+        "level": 19,
+        "cost": {
+          "food": 160566,
+          "timber": 200708,
+          "stone": 120425,
+          "iron": 40142
+        },
+        "buildTimeSec": 133010,
+        "outputPerHour": 0,
+        "keepLevelRequired": 19,
+        "power": 5218
+      },
+      {
+        "level": 20,
+        "cost": {
+          "food": 232821,
+          "timber": 291026,
+          "stone": 174616,
+          "iron": 58205
+        },
+        "buildTimeSec": 199515,
+        "outputPerHour": 0,
+        "keepLevelRequired": 20,
+        "power": 7567
+      },
+      {
+        "level": 21,
+        "cost": {
+          "food": 337590,
+          "timber": 421988,
+          "stone": 253193,
+          "iron": 84398
+        },
+        "buildTimeSec": 299273,
+        "outputPerHour": 0,
+        "keepLevelRequired": 21,
+        "power": 10972
+      },
+      {
+        "level": 22,
+        "cost": {
+          "food": 489506,
+          "timber": 611883,
+          "stone": 367130,
+          "iron": 122377
+        },
+        "buildTimeSec": 448910,
+        "outputPerHour": 0,
+        "keepLevelRequired": 22,
+        "power": 15909
+      },
+      {
+        "level": 23,
+        "cost": {
+          "food": 709784,
+          "timber": 887230,
+          "stone": 532338,
+          "iron": 177446
+        },
+        "buildTimeSec": 673364,
+        "outputPerHour": 0,
+        "keepLevelRequired": 23,
+        "power": 23068
+      },
+      {
+        "level": 24,
+        "cost": {
+          "food": 1029186,
+          "timber": 1286483,
+          "stone": 771890,
+          "iron": 257297
+        },
+        "buildTimeSec": 1010047,
+        "outputPerHour": 0,
+        "keepLevelRequired": 24,
+        "power": 33449
+      },
+      {
+        "level": 25,
+        "cost": {
+          "food": 1492320,
+          "timber": 1865400,
+          "stone": 1119240,
+          "iron": 373080
+        },
+        "buildTimeSec": 1515070,
+        "outputPerHour": 0,
+        "keepLevelRequired": 25,
+        "power": 48500
+      },
+      {
+        "level": 26,
+        "cost": {
+          "food": 2163864,
+          "timber": 2704831,
+          "stone": 1622898,
+          "iron": 540966
+        },
+        "buildTimeSec": 2272605,
+        "outputPerHour": 0,
+        "keepLevelRequired": 26,
+        "power": 70326
+      },
+      {
+        "level": 27,
+        "cost": {
+          "food": 3137603,
+          "timber": 3922004,
+          "stone": 2353203,
+          "iron": 784401
+        },
+        "buildTimeSec": 3408908,
+        "outputPerHour": 0,
+        "keepLevelRequired": 27,
+        "power": 101972
+      },
+      {
+        "level": 28,
+        "cost": {
+          "food": 4549525,
+          "timber": 5686906,
+          "stone": 3412144,
+          "iron": 1137381
+        },
+        "buildTimeSec": 5113362,
+        "outputPerHour": 0,
+        "keepLevelRequired": 28,
+        "power": 147860
+      },
+      {
+        "level": 29,
+        "cost": {
+          "food": 6596811,
+          "timber": 8246014,
+          "stone": 4947608,
+          "iron": 1649203
+        },
+        "buildTimeSec": 7670042,
+        "outputPerHour": 0,
+        "keepLevelRequired": 29,
+        "power": 214396
+      },
+      {
+        "level": 30,
+        "cost": {
+          "food": 9565376,
+          "timber": 11956720,
+          "stone": 7174032,
+          "iron": 2391344
+        },
+        "buildTimeSec": 11505064,
+        "outputPerHour": 0,
+        "keepLevelRequired": 30,
+        "power": 310875
+      }
+    ]
+  },
+  {
+    "id": "city_wall",
+    "name": "City Wall",
+    "category": "defence",
+    "maxLevel": 30,
+    "unlockKeepLevel": 2,
+    "produces": null,
+    "levels": [
+      {
+        "level": 1,
+        "cost": {
+          "food": 0,
+          "timber": 150,
+          "stone": 300,
+          "iron": 50
+        },
+        "buildTimeSec": 90,
+        "outputPerHour": 0,
+        "keepLevelRequired": 2,
+        "power": 5
+      },
+      {
+        "level": 2,
+        "cost": {
+          "food": 0,
+          "timber": 218,
+          "stone": 435,
+          "iron": 73
+        },
+        "buildTimeSec": 140,
+        "outputPerHour": 0,
+        "keepLevelRequired": 2,
+        "power": 7
+      },
+      {
+        "level": 3,
+        "cost": {
+          "food": 0,
+          "timber": 315,
+          "stone": 631,
+          "iron": 105
+        },
+        "buildTimeSec": 216,
+        "outputPerHour": 0,
+        "keepLevelRequired": 3,
+        "power": 11
+      },
+      {
+        "level": 4,
+        "cost": {
+          "food": 0,
+          "timber": 457,
+          "stone": 915,
+          "iron": 152
+        },
+        "buildTimeSec": 335,
+        "outputPerHour": 0,
+        "keepLevelRequired": 4,
+        "power": 15
+      },
+      {
+        "level": 5,
+        "cost": {
+          "food": 0,
+          "timber": 663,
+          "stone": 1326,
+          "iron": 221
+        },
+        "buildTimeSec": 519,
+        "outputPerHour": 0,
+        "keepLevelRequired": 5,
+        "power": 22
+      },
+      {
+        "level": 6,
+        "cost": {
+          "food": 0,
+          "timber": 961,
+          "stone": 1923,
+          "iron": 320
+        },
+        "buildTimeSec": 805,
+        "outputPerHour": 0,
+        "keepLevelRequired": 6,
+        "power": 32
+      },
+      {
+        "level": 7,
+        "cost": {
+          "food": 0,
+          "timber": 1394,
+          "stone": 2788,
+          "iron": 465
+        },
+        "buildTimeSec": 1248,
+        "outputPerHour": 0,
+        "keepLevelRequired": 7,
+        "power": 46
+      },
+      {
+        "level": 8,
+        "cost": {
+          "food": 0,
+          "timber": 2021,
+          "stone": 4043,
+          "iron": 674
+        },
+        "buildTimeSec": 1934,
+        "outputPerHour": 0,
+        "keepLevelRequired": 8,
+        "power": 67
+      },
+      {
+        "level": 9,
+        "cost": {
+          "food": 0,
+          "timber": 2931,
+          "stone": 5862,
+          "iron": 977
+        },
+        "buildTimeSec": 2998,
+        "outputPerHour": 0,
+        "keepLevelRequired": 9,
+        "power": 98
+      },
+      {
+        "level": 10,
+        "cost": {
+          "food": 0,
+          "timber": 4250,
+          "stone": 8500,
+          "iron": 1417
+        },
+        "buildTimeSec": 4648,
+        "outputPerHour": 0,
+        "keepLevelRequired": 10,
+        "power": 142
+      },
+      {
+        "level": 11,
+        "cost": {
+          "food": 0,
+          "timber": 6163,
+          "stone": 12325,
+          "iron": 2054
+        },
+        "buildTimeSec": 7204,
+        "outputPerHour": 0,
+        "keepLevelRequired": 11,
+        "power": 205
+      },
+      {
+        "level": 12,
+        "cost": {
+          "food": 0,
+          "timber": 8936,
+          "stone": 17872,
+          "iron": 2979
+        },
+        "buildTimeSec": 11166,
+        "outputPerHour": 0,
+        "keepLevelRequired": 12,
+        "power": 298
+      },
+      {
+        "level": 13,
+        "cost": {
+          "food": 0,
+          "timber": 12957,
+          "stone": 25914,
+          "iron": 4319
+        },
+        "buildTimeSec": 17307,
+        "outputPerHour": 0,
+        "keepLevelRequired": 13,
+        "power": 432
+      },
+      {
+        "level": 14,
+        "cost": {
+          "food": 0,
+          "timber": 18788,
+          "stone": 37576,
+          "iron": 6263
+        },
+        "buildTimeSec": 26826,
+        "outputPerHour": 0,
+        "keepLevelRequired": 14,
+        "power": 626
+      },
+      {
+        "level": 15,
+        "cost": {
+          "food": 0,
+          "timber": 27242,
+          "stone": 54485,
+          "iron": 9081
+        },
+        "buildTimeSec": 41580,
+        "outputPerHour": 0,
+        "keepLevelRequired": 15,
+        "power": 908
+      },
+      {
+        "level": 16,
+        "cost": {
+          "food": 0,
+          "timber": 39501,
+          "stone": 79003,
+          "iron": 13167
+        },
+        "buildTimeSec": 64449,
+        "outputPerHour": 0,
+        "keepLevelRequired": 16,
+        "power": 1317
+      },
+      {
+        "level": 17,
+        "cost": {
+          "food": 0,
+          "timber": 57277,
+          "stone": 114554,
+          "iron": 19092
+        },
+        "buildTimeSec": 99896,
+        "outputPerHour": 0,
+        "keepLevelRequired": 17,
+        "power": 1909
+      },
+      {
+        "level": 18,
+        "cost": {
+          "food": 0,
+          "timber": 83051,
+          "stone": 166103,
+          "iron": 27684
+        },
+        "buildTimeSec": 154839,
+        "outputPerHour": 0,
+        "keepLevelRequired": 18,
+        "power": 2768
+      },
+      {
+        "level": 19,
+        "cost": {
+          "food": 0,
+          "timber": 120425,
+          "stone": 240849,
+          "iron": 40142
+        },
+        "buildTimeSec": 240001,
+        "outputPerHour": 0,
+        "keepLevelRequired": 19,
+        "power": 4014
+      },
+      {
+        "level": 20,
+        "cost": {
+          "food": 0,
+          "timber": 174616,
+          "stone": 349231,
+          "iron": 58205
+        },
+        "buildTimeSec": 372002,
+        "outputPerHour": 0,
+        "keepLevelRequired": 20,
+        "power": 5821
+      },
+      {
+        "level": 21,
+        "cost": {
+          "food": 0,
+          "timber": 253193,
+          "stone": 506386,
+          "iron": 84398
+        },
+        "buildTimeSec": 576602,
+        "outputPerHour": 0,
+        "keepLevelRequired": 21,
+        "power": 8440
+      },
+      {
+        "level": 22,
+        "cost": {
+          "food": 0,
+          "timber": 367130,
+          "stone": 734259,
+          "iron": 122377
+        },
+        "buildTimeSec": 893734,
+        "outputPerHour": 0,
+        "keepLevelRequired": 22,
+        "power": 12238
+      },
+      {
+        "level": 23,
+        "cost": {
+          "food": 0,
+          "timber": 532338,
+          "stone": 1064676,
+          "iron": 177446
+        },
+        "buildTimeSec": 1385287,
+        "outputPerHour": 0,
+        "keepLevelRequired": 23,
+        "power": 17745
+      },
+      {
+        "level": 24,
+        "cost": {
+          "food": 0,
+          "timber": 771890,
+          "stone": 1543780,
+          "iron": 257297
+        },
+        "buildTimeSec": 2147195,
+        "outputPerHour": 0,
+        "keepLevelRequired": 24,
+        "power": 25730
+      },
+      {
+        "level": 25,
+        "cost": {
+          "food": 0,
+          "timber": 1119240,
+          "stone": 2238480,
+          "iron": 373080
+        },
+        "buildTimeSec": 3328153,
+        "outputPerHour": 0,
+        "keepLevelRequired": 25,
+        "power": 37308
+      },
+      {
+        "level": 26,
+        "cost": {
+          "food": 0,
+          "timber": 1622898,
+          "stone": 3245797,
+          "iron": 540966
+        },
+        "buildTimeSec": 5158637,
+        "outputPerHour": 0,
+        "keepLevelRequired": 26,
+        "power": 54097
+      },
+      {
+        "level": 27,
+        "cost": {
+          "food": 0,
+          "timber": 2353203,
+          "stone": 4706405,
+          "iron": 784401
+        },
+        "buildTimeSec": 7995887,
+        "outputPerHour": 0,
+        "keepLevelRequired": 27,
+        "power": 78440
+      },
+      {
+        "level": 28,
+        "cost": {
+          "food": 0,
+          "timber": 3412144,
+          "stone": 6824288,
+          "iron": 1137381
+        },
+        "buildTimeSec": 12393625,
+        "outputPerHour": 0,
+        "keepLevelRequired": 28,
+        "power": 113738
+      },
+      {
+        "level": 29,
+        "cost": {
+          "food": 0,
+          "timber": 4947608,
+          "stone": 9895217,
+          "iron": 1649203
+        },
+        "buildTimeSec": 19210119,
+        "outputPerHour": 0,
+        "keepLevelRequired": 29,
+        "power": 164920
+      },
+      {
+        "level": 30,
+        "cost": {
+          "food": 0,
+          "timber": 7174032,
+          "stone": 14348064,
+          "iron": 2391344
+        },
+        "buildTimeSec": 29775685,
+        "outputPerHour": 0,
+        "keepLevelRequired": 30,
+        "power": 239134
+      }
+    ]
+  }
+]

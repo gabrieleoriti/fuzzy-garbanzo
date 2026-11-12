@@ -97,6 +97,38 @@ cd client-check && dotnet run
 
 The run exits 0 and prints `RESULT: PASS` when all checks pass.
 
+## Game config (Sheet → JSON)
+
+The economy is tuned in the **Fantasy SLG Core Loop** Sheet and exported to `config/*.json`
+(see [config/README.md](config/README.md) for what each file holds).
+
+1. Open the Sheet and download it as **.xlsx**.
+2. Export:
+   ```bash
+   cd tools/export-config && npm install
+   ```
+   ```bash
+   npm run export -- "<path to the downloaded .xlsx>"
+   ```
+3. Review `git diff config/` and commit it.
+
+The exporter validates before writing anything. It reports each problem with its cell, such as
+`Units!D8: "stable" is not a building`, and writes nothing until all of them are fixed. It
+checks for duplicate ids, unknown references, blank or non-numeric values, prerequisite loops
+and missing columns.
+
+How it reads the Sheet:
+- **Building Levels:** a value typed over a formula overrides that level. Formula cells are
+  only previews, and every level is derived from the Buildings curves. If a preview disagrees
+  with the derived value, you get a warning.
+- **Cost columns** are matched by resource name (`Base Gold`, or `Gold` on Units), so adding
+  a cost resource needs no code change.
+- **Notes and display-only columns** are skipped. Any other column the exporter doesn't know
+  is skipped with a warning.
+
+`npm run export -- <file.xlsx> --check` writes nothing and exits 1 if `config/` is out of
+date. Run `npm test` for the exporter's tests.
+
 ## Before anything other than local dev
 
 Change every value in `.env`. In particular, the server key and the session and

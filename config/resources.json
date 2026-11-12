@@ -1,0 +1,44 @@
+[
+  {
+    "id": "food",
+    "name": "Food",
+    "type": "basic",
+    "starting": 5000,
+    "storageCap": 20000
+  },
+  {
+    "id": "timber",
+    "name": "Timber",
+    "type": "basic",
+    "starting": 5000,
+    "storageCap": 20000
+  },
+  {
+    "id": "stone",
+    "name": "Stone",
+    "type": "basic",
+    "starting": 2000,
+    "storageCap": 10000
+  },
+  {
+    "id": "iron",
+    "name": "Iron",
+    "type": "basic",
+    "starting": 500,
+    "storageCap": 5000
+  },
+  {
+    "id": "gold",
+    "name": "Gold",
+    "type": "basic",
+    "starting": 1000,
+    "storageCap": 50000
+  },
+  {
+    "id": "gems",
+    "name": "Gems",
+    "type": "premium",
+    "starting": 200,
+    "storageCap": null
+  }
+]

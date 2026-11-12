@@ -1,0 +1,99 @@
+{
+  "instantFinishGemsPerMinute": 1,
+  "speedUps": [
+    {
+      "id": "1_minute_speed_up",
+      "name": "1-minute Speed-up",
+      "appliesTo": "any",
+      "skipSeconds": 60,
+      "gems": 1
+    },
+    {
+      "id": "5_minute_speed_up",
+      "name": "5-minute Speed-up",
+      "appliesTo": "any",
+      "skipSeconds": 300,
+      "gems": 5
+    },
+    {
+      "id": "1_hour_speed_up",
+      "name": "1-hour Speed-up",
+      "appliesTo": "any",
+      "skipSeconds": 3600,
+      "gems": 50
+    },
+    {
+      "id": "3_hour_speed_up",
+      "name": "3-hour Speed-up",
+      "appliesTo": "any",
+      "skipSeconds": 10800,
+      "gems": 140
+    },
+    {
+      "id": "8_hour_speed_up",
+      "name": "8-hour Speed-up",
+      "appliesTo": "any",
+      "skipSeconds": 28800,
+      "gems": 350
+    },
+    {
+      "id": "24_hour_speed_up",
+      "name": "24-hour Speed-up",
+      "appliesTo": "any",
+      "skipSeconds": 86400,
+      "gems": 950
+    },
+    {
+      "id": "1_hour_builders_haste",
+      "name": "1-hour Builder's Haste",
+      "appliesTo": "construction",
+      "skipSeconds": 3600,
+      "gems": 40
+    },
+    {
+      "id": "1_hour_training_drill",
+      "name": "1-hour Training Drill",
+      "appliesTo": "training",
+      "skipSeconds": 3600,
+      "gems": 40
+    }
+  ],
+  "gemPacks": [
+    {
+      "id": "pouch",
+      "name": "Pouch",
+      "pricePence": 99,
+      "gems": 100
+    },
+    {
+      "id": "satchel",
+      "name": "Satchel",
+      "pricePence": 499,
+      "gems": 550
+    },
+    {
+      "id": "chest",
+      "name": "Chest",
+      "pricePence": 999,
+      "gems": 1200
+    },
+    {
+      "id": "coffer",
+      "name": "Coffer",
+      "pricePence": 1999,
+      "gems": 2600
+    },
+    {
+      "id": "vault",
+      "name": "Vault",
+      "pricePence": 4999,
+      "gems": 7000
+    },
+    {
+      "id": "dragons_hoard",
+      "name": "Dragon's Hoard",
+      "pricePence": 9999,
+      "gems": 15000
+    }
+  ]
+}
